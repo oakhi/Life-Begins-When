@@ -1,0 +1,14 @@
+{
+  "hash": "9b633e949a59fee544971158974a4089",
+  "result": {
+    "markdown": "---\ntitle: \"My Seminary Teacher\"\nauthor: \"DK\"\ndate: \"2022-9-13\"\ncategories: [gratitude]\n---\n\n\nMy seminary teacher, Carol Rawlins, passed away this week.\n\nShe and her husband, Stephen Rawlins, gave directions and provided an anchor during my high school years when important decisions needed to be made.\n\nBy her example, she provided an insight into this quote by the former head of the United Nations.\n\nIt is more noble to give yourself completely to one individual than to labor diligently for the salvation of the masses.\nDag Hammarskjold\n\nShe made you feel like you were that, one individual.\nThat individual in turn, having felt the love, can influence other individuals.\n\nThank you Sister Rawlins for the service and love.\nThank you Rawlins family for sharing your mom with us.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nhtml_tag_audio(\"Belu Grace.wav\", type = \"wav\")\n```\n\n::: {.cell-output-display}\n```{=html}\n<audio controls=\"\">\n<source src=\"Belu Grace.wav\" type=\"audio/wav\"/>\n</audio>\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

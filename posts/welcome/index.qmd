@@ -1,12 +1,18 @@
 ---
 title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2022-12-13"
-categories: [news]
+author: "DK"
+date: "2022-11-2"
+categories: [intro, parents]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+To remember the faith, experience and wisdom of my parents.
 
-![](thumbnail.jpg)
+Grateful for a chance to celebrate and recall blessings, challenges and joys of this life and mercy and goodness of God.
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+For guiding my parents out of North Korea, establishing a temporary home in the Incheon (인천, 仁川) area.  
+Then a move to Maryland and establishing a root, based on Faith in Jesus Christ.
+
+November 2022
+
+![](mom_dad.jpeg)
+
