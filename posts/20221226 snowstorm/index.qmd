@@ -2,7 +2,7 @@
 title: "Holiday Snowstorms"
 author: "DK"
 date: "2022-12-26"
-categories: [gratitude, poor]
+categories: [gratitude, nostalgia]
 image: "20221213_182457-01.jpeg"
 ---
 
