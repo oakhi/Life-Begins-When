@@ -2,12 +2,12 @@
 title: "That is why we go"
 author: "Mark A. Wilson"
 date: "2022-11-25"
-categories: [Korean War, gratitude]
+categories: [korean war, gratitude]
 image: "monuments.jpg"
 ---
 
-"Sir, I want to thank you and your fellow countrymen  
-for coming to the aid of my country so many years ago.   
+"Sir, I want to thank you and your fellow countrymen\
+for coming to the aid of my country so many years ago.\
 Because of your sacrifices, people like me could grow up in freedom!".
 
 My father knew the reason for the war.
