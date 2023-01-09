@@ -4,8 +4,11 @@ project:
 
 website:
   title: "Quarto Blog"
+  site-url: https://oakhi.github.io/Life-Begins-When/
   navbar:
     right:
+      - icon: rss
+        href: index.xml
       - about.qmd
       - icon: github
         href: https://github.com/
