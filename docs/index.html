@@ -71,7 +71,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
@@ -158,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(23)</span></div><div class="category" data-category="alone">alone <span class="quarto-category-count">(1)</span></div><div class="category" data-category="compassion">compassion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dad">dad <span class="quarto-category-count">(1)</span></div><div class="category" data-category="divided">divided <span class="quarto-category-count">(3)</span></div><div class="category" data-category="faith">faith <span class="quarto-category-count">(1)</span></div><div class="category" data-category="family">family <span class="quarto-category-count">(1)</span></div><div class="category" data-category="future">future <span class="quarto-category-count">(3)</span></div><div class="category" data-category="gratitude">gratitude <span class="quarto-category-count">(5)</span></div><div class="category" data-category="guidance">guidance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="heroes">heroes <span class="quarto-category-count">(1)</span></div><div class="category" data-category="indirect">indirect <span class="quarto-category-count">(1)</span></div><div class="category" data-category="intro">intro <span class="quarto-category-count">(1)</span></div><div class="category" data-category="korean war">korean war <span class="quarto-category-count">(2)</span></div><div class="category" data-category="lessons">lessons <span class="quarto-category-count">(2)</span></div><div class="category" data-category="love">love <span class="quarto-category-count">(1)</span></div><div class="category" data-category="marriage">marriage <span class="quarto-category-count">(1)</span></div><div class="category" data-category="memory">memory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mercy">mercy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mother">mother <span class="quarto-category-count">(1)</span></div><div class="category" data-category="music">music <span class="quarto-category-count">(1)</span></div><div class="category" data-category="neighbor">neighbor <span class="quarto-category-count">(1)</span></div><div class="category" data-category="nostalgia">nostalgia <span class="quarto-category-count">(2)</span></div><div class="category" data-category="parent">parent <span class="quarto-category-count">(1)</span></div><div class="category" data-category="parents">parents <span class="quarto-category-count">(3)</span></div><div class="category" data-category="recollections">recollections <span class="quarto-category-count">(1)</span></div><div class="category" data-category="remembrance">remembrance <span class="quarto-category-count">(2)</span></div><div class="category" data-category="servant-leader">servant-leader <span class="quarto-category-count">(1)</span></div><div class="category" data-category="silence">silence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="snow">snow <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sunset">sunset <span class="quarto-category-count">(1)</span></div><div class="category" data-category="talmud">talmud <span class="quarto-category-count">(1)</span></div><div class="category" data-category="time">time <span class="quarto-category-count">(1)</span></div><div class="category" data-category="work">work <span class="quarto-category-count">(2)</span></div><div class="category" data-category="陶淵明">陶淵明 <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(26)</span></div><div class="category" data-category="alone">alone <span class="quarto-category-count">(1)</span></div><div class="category" data-category="compassion">compassion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dad">dad <span class="quarto-category-count">(1)</span></div><div class="category" data-category="divided">divided <span class="quarto-category-count">(3)</span></div><div class="category" data-category="faith">faith <span class="quarto-category-count">(1)</span></div><div class="category" data-category="family">family <span class="quarto-category-count">(3)</span></div><div class="category" data-category="future">future <span class="quarto-category-count">(3)</span></div><div class="category" data-category="gratitude">gratitude <span class="quarto-category-count">(6)</span></div><div class="category" data-category="guidance">guidance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="heroes">heroes <span class="quarto-category-count">(1)</span></div><div class="category" data-category="indirect">indirect <span class="quarto-category-count">(1)</span></div><div class="category" data-category="intro">intro <span class="quarto-category-count">(1)</span></div><div class="category" data-category="korean war">korean war <span class="quarto-category-count">(2)</span></div><div class="category" data-category="lessons">lessons <span class="quarto-category-count">(2)</span></div><div class="category" data-category="love">love <span class="quarto-category-count">(1)</span></div><div class="category" data-category="marriage">marriage <span class="quarto-category-count">(1)</span></div><div class="category" data-category="memory">memory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mercy">mercy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mother">mother <span class="quarto-category-count">(1)</span></div><div class="category" data-category="music">music <span class="quarto-category-count">(1)</span></div><div class="category" data-category="neighbor">neighbor <span class="quarto-category-count">(1)</span></div><div class="category" data-category="nostalgia">nostalgia <span class="quarto-category-count">(3)</span></div><div class="category" data-category="parent">parent <span class="quarto-category-count">(1)</span></div><div class="category" data-category="parents">parents <span class="quarto-category-count">(3)</span></div><div class="category" data-category="recollections">recollections <span class="quarto-category-count">(3)</span></div><div class="category" data-category="remembrance">remembrance <span class="quarto-category-count">(2)</span></div><div class="category" data-category="servant-leader">servant-leader <span class="quarto-category-count">(1)</span></div><div class="category" data-category="silence">silence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="snow">snow <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sunset">sunset <span class="quarto-category-count">(1)</span></div><div class="category" data-category="talmud">talmud <span class="quarto-category-count">(1)</span></div><div class="category" data-category="time">time <span class="quarto-category-count">(1)</span></div><div class="category" data-category="work">work <span class="quarto-category-count">(2)</span></div><div class="category" data-category="陶淵明">陶淵明 <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -171,7 +172,124 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="mother,faith" data-listing-date-sort="1674198000000" data-listing-file-modified-sort="1674194904128" data-listing-reading-time-sort="1.48">
+<div class="quarto-post image-right" data-index="0" data-categories="gratitude,nostalgia" data-listing-date-sort="1674457200000" data-listing-file-modified-sort="1674693066504" data-listing-reading-time-sort="0.945">
+<div class="thumbnail">
+<p><a href="./posts/20230123 We are All Alone/index.html"> <img src="./posts/20230123 We are All Alone/IMG_0597-EFFECTS_Original (2).jpg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230123 We are All Alone/index.html">
+<h3 class="no-anchor listing-title">
+We are all Alone
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('gratitude'); return false;">
+gratitude
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('nostalgia'); return false;">
+nostalgia
+</div>
+</div>
+<a href="./posts/20230123 We are All Alone/index.html">
+<div class="listing-description">
+Outside the rain begins And it may never end<br>
+So cry no more, on the shore a dream<br>
+Will take us out to sea<br>
+Forevermore, forevermore
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230123 We are All Alone/index.html">
+<div class="listing-date">
+Jan 23, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="family,recollections" data-listing-date-sort="1674370800000" data-listing-file-modified-sort="1674692555317" data-listing-reading-time-sort="1.75">
+<div class="thumbnail">
+<p><a href="./posts/20230121 Discrepancies/index.html"> <img src="./posts/20230121 Discrepancies/514691694.610559.jpg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230121 Discrepancies/index.html">
+<h3 class="no-anchor listing-title">
+Life’s Discrepancies
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('family'); return false;">
+family
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('recollections'); return false;">
+recollections
+</div>
+</div>
+<a href="./posts/20230121 Discrepancies/index.html">
+<div class="listing-description">
+On official records, my mother’s birthday is listed as <code>20 February 1935</code>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230121 Discrepancies/index.html">
+<div class="listing-date">
+Jan 22, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="family,recollections" data-listing-date-sort="1674284400000" data-listing-file-modified-sort="1674692716091" data-listing-reading-time-sort="4.13">
+<div class="thumbnail">
+<p><a href="./posts/20230122 Oral Traditions/index.html"> <img src="./posts/20230122 Oral Traditions/20230107_152010-01.jpeg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230122 Oral Traditions/index.html">
+<h3 class="no-anchor listing-title">
+Traditions of My Parents
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('family'); return false;">
+family
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('recollections'); return false;">
+recollections
+</div>
+</div>
+<a href="./posts/20230122 Oral Traditions/index.html">
+<div class="listing-description">
+Communication between two parties can yield varying results.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230122 Oral Traditions/index.html">
+<div class="listing-date">
+Jan 21, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="mother,faith" data-listing-date-sort="1674198000000" data-listing-file-modified-sort="1674194904128" data-listing-reading-time-sort="1.48">
 <div class="thumbnail">
 <p><a href="./posts/20230120 faith of mom/index.html"> <img src="./posts/20230120 faith of mom/20230101_083104.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -209,7 +327,7 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="remembrance,music" data-listing-date-sort="1674111600000" data-listing-file-modified-sort="1674225188271" data-listing-reading-time-sort="2.215">
+<div class="quarto-post image-right" data-index="4" data-categories="remembrance,music" data-listing-date-sort="1674111600000" data-listing-file-modified-sort="1674225188271" data-listing-reading-time-sort="2.215">
 <div class="thumbnail">
 <p><a href="./posts/20230119 trot spotify/index.html"> <img src="./posts/20230119 trot spotify/IMG_1671.JPG" class="thumnail-image"> </a></p>
 </div>
@@ -247,7 +365,7 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="remembrance,alone" data-listing-date-sort="1674025200000" data-listing-file-modified-sort="1674092981450" data-listing-reading-time-sort="0.185">
+<div class="quarto-post image-right" data-index="5" data-categories="remembrance,alone" data-listing-date-sort="1674025200000" data-listing-file-modified-sort="1674092981450" data-listing-reading-time-sort="0.185">
 <div class="thumbnail">
 <p><a href="./posts/20230118 abide with me/index.html"> <img src="./posts/20230118 abide with me/20230118_172057-01.jpeg" class="thumnail-image"> </a></p>
 </div>
@@ -285,7 +403,7 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="dad,work" data-listing-date-sort="1673852400000" data-listing-file-modified-sort="1674012037143" data-listing-reading-time-sort="0.62">
+<div class="quarto-post image-right" data-index="6" data-categories="dad,work" data-listing-date-sort="1673852400000" data-listing-file-modified-sort="1674012037143" data-listing-reading-time-sort="0.62">
 <div class="thumbnail">
 <p><a href="./posts/20230116 da nang days/index.html"> <img src="./posts/20230116 da nang days/Epson_01152023111751_4.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -323,7 +441,7 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="family,recollections" data-listing-date-sort="1673766000000" data-listing-file-modified-sort="1674008354236" data-listing-reading-time-sort="1.835">
+<div class="quarto-post image-right" data-index="7" data-categories="family,recollections" data-listing-date-sort="1673766000000" data-listing-file-modified-sort="1674593382273" data-listing-reading-time-sort="1.81">
 <div class="thumbnail">
 <p><a href="./posts/20230115 old folks/index.html"> <img src="./posts/20230115 old folks/20230111_171308-01.jpeg" class="thumnail-image"> </a></p>
 </div>
@@ -361,7 +479,7 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="divided,future" data-listing-date-sort="1673679600000" data-listing-file-modified-sort="1674008289822" data-listing-reading-time-sort="1.265">
+<div class="quarto-post image-right" data-index="8" data-categories="divided,future" data-listing-date-sort="1673679600000" data-listing-file-modified-sort="1674008289822" data-listing-reading-time-sort="1.265">
 <div class="thumbnail">
 <p><a href="./posts/20230114 Displaced Person/index.html"> <img src="./posts/20230114 Displaced Person/Epson_08152020104334 Copy Copy.JPG" class="thumnail-image"> </a></p>
 </div>
@@ -399,7 +517,7 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="gratitude,parent,work" data-listing-date-sort="1673506800000" data-listing-file-modified-sort="1673548606259" data-listing-reading-time-sort="1.01">
+<div class="quarto-post image-right" data-index="9" data-categories="gratitude,parent,work" data-listing-date-sort="1673506800000" data-listing-file-modified-sort="1673548606259" data-listing-reading-time-sort="1.01">
 <div class="thumbnail">
 <p><a href="./posts/20230110 thank you dad/index.html"> <img src="./posts/20230110 thank you dad/IMG_3944.JPG" class="thumnail-image"> </a></p>
 </div>
@@ -440,7 +558,7 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="divided,future" data-listing-date-sort="1673420400000" data-listing-file-modified-sort="1673640729716" data-listing-reading-time-sort="3.44">
+<div class="quarto-post image-right" data-index="10" data-categories="divided,future" data-listing-date-sort="1673420400000" data-listing-file-modified-sort="1673640729716" data-listing-reading-time-sort="3.44">
 <div class="thumbnail">
 <p><a href="./posts/20230112 38th Parallel Pt 2/index.html"> <img src="./posts/20230112 38th Parallel Pt 2/IMG_3143.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -478,7 +596,7 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="compassion,guidance" data-listing-date-sort="1673247600000" data-listing-file-modified-sort="1673542549807" data-listing-reading-time-sort="1.815">
+<div class="quarto-post image-right" data-index="11" data-categories="compassion,guidance" data-listing-date-sort="1673247600000" data-listing-file-modified-sort="1673542549807" data-listing-reading-time-sort="1.815">
 <div class="thumbnail">
 <p><a href="./posts/20230109 rock canyon deers/index.html"> <img src="./posts/20230109 rock canyon deers/20221112_171117-01.jpeg" class="thumnail-image"> </a></p>
 </div>
@@ -516,7 +634,7 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="gratitude,parents,korean war" data-listing-date-sort="1672902000000" data-listing-file-modified-sort="1672944964342" data-listing-reading-time-sort="4.79">
+<div class="quarto-post image-right" data-index="12" data-categories="gratitude,parents,korean war" data-listing-date-sort="1672902000000" data-listing-file-modified-sort="1672944964342" data-listing-reading-time-sort="4.79">
 <div class="thumbnail">
 <p><a href="./posts/20230105 My Family Escape/index.html"> <img src="./posts/20230105 My Family Escape/IMG_2154 (1).JPG" class="thumnail-image"> </a></p>
 </div>
@@ -557,7 +675,7 @@ Young Irvine
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="divided,future" data-listing-date-sort="1672729200000" data-listing-file-modified-sort="1672944667043" data-listing-reading-time-sort="1.49">
+<div class="quarto-post image-right" data-index="13" data-categories="divided,future" data-listing-date-sort="1672729200000" data-listing-file-modified-sort="1672944667043" data-listing-reading-time-sort="1.49">
 <div class="thumbnail">
 <p><a href="./posts/20230103 38th Parallel/index.html"> <img src="./posts/20230103 38th Parallel/Epson_12112022170630-01.jpeg" class="thumnail-image"> </a></p>
 </div>
@@ -595,7 +713,7 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="lessons,snow" data-listing-date-sort="1672642800000" data-listing-file-modified-sort="1672762909189" data-listing-reading-time-sort="0.795">
+<div class="quarto-post image-right" data-index="14" data-categories="lessons,snow" data-listing-date-sort="1672642800000" data-listing-file-modified-sort="1672762909189" data-listing-reading-time-sort="0.795">
 <div class="thumbnail">
 <p><a href="./posts/20230102 Tuesday Aftrernoon/index.html"> <img src="./posts/20230102 Tuesday Aftrernoon/20230102_133107-03.jpeg" class="thumnail-image"> </a></p>
 </div>
@@ -633,7 +751,7 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="memory,time" data-listing-date-sort="1672210800000" data-listing-file-modified-sort="1672344117607" data-listing-reading-time-sort="0.865">
+<div class="quarto-post image-right" data-index="15" data-categories="memory,time" data-listing-date-sort="1672210800000" data-listing-file-modified-sort="1672344117607" data-listing-reading-time-sort="0.865">
 <div class="thumbnail">
 <p><a href="./posts/20221228 ma non troppo/index.html"> <img src="./posts/20221228 ma non troppo/20211227_075031_2-01.jpeg" class="thumnail-image"> </a></p>
 </div>
@@ -671,7 +789,7 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="gratitude,nostalgia" data-listing-date-sort="1672038000000" data-listing-file-modified-sort="1672343327144" data-listing-reading-time-sort="1.45">
+<div class="quarto-post image-right" data-index="16" data-categories="gratitude,nostalgia" data-listing-date-sort="1672038000000" data-listing-file-modified-sort="1672343327144" data-listing-reading-time-sort="1.45">
 <div class="thumbnail">
 <p><a href="./posts/20221226 snowstorm/index.html"> <img src="./posts/20221226 snowstorm/20221213_182457-01.jpeg" class="thumnail-image"> </a></p>
 </div>
@@ -710,7 +828,7 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="gratitude,marriage" data-listing-date-sort="1671692400000" data-listing-file-modified-sort="1671737907000" data-listing-reading-time-sort="4.45">
+<div class="quarto-post image-right" data-index="17" data-categories="gratitude,marriage" data-listing-date-sort="1671692400000" data-listing-file-modified-sort="1671737907000" data-listing-reading-time-sort="4.45">
 <div class="thumbnail">
 <p><a href="./posts/carol rawlins 2/index.html"> <img src="./posts/carol rawlins 2/IMG_2371.JPG" class="thumnail-image"> </a></p>
 </div>
@@ -748,7 +866,7 @@ Steve Rawlins
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="neighbor,mercy" data-listing-date-sort="1669964400000" data-listing-file-modified-sort="1672347372778" data-listing-reading-time-sort="1.485">
+<div class="quarto-post image-right" data-index="18" data-categories="neighbor,mercy" data-listing-date-sort="1669964400000" data-listing-file-modified-sort="1672347372778" data-listing-reading-time-sort="1.485">
 <div class="thumbnail">
 <p><a href="./posts/strangers/index.html"> <img src="./posts/strangers/IMG_6893-01.jpeg" class="thumnail-image"> </a></p>
 </div>
@@ -786,7 +904,7 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="sunset,陶淵明" data-listing-date-sort="1669705200000" data-listing-file-modified-sort="1671470661824" data-listing-reading-time-sort="0.185">
+<div class="quarto-post image-right" data-index="19" data-categories="sunset,陶淵明" data-listing-date-sort="1669705200000" data-listing-file-modified-sort="1671470661824" data-listing-reading-time-sort="0.185">
 <div class="thumbnail">
 <p><a href="./posts/shadows/index.html"> <img src="./posts/shadows/sunset.jpeg" class="thumnail-image"> </a></p>
 </div>
@@ -824,7 +942,7 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="talmud" data-listing-date-sort="1669446000000" data-listing-file-modified-sort="1671224188569" data-listing-reading-time-sort="0.435">
+<div class="quarto-post image-right" data-index="20" data-categories="talmud" data-listing-date-sort="1669446000000" data-listing-file-modified-sort="1671224188569" data-listing-reading-time-sort="0.435">
 <div class="thumbnail">
 <p><a href="./posts/doubt resolution/index.html"> <img src="./posts/doubt resolution/marunouchi.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -859,7 +977,7 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="korean war,gratitude" data-listing-date-sort="1669359600000" data-listing-file-modified-sort="1673389947133" data-listing-reading-time-sort="2.66">
+<div class="quarto-post image-right" data-index="21" data-categories="korean war,gratitude" data-listing-date-sort="1669359600000" data-listing-file-modified-sort="1673389947133" data-listing-reading-time-sort="2.66">
 <div class="thumbnail">
 <p><a href="./posts/that is why/index.html"> <img src="./posts/that is why/monuments.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -899,7 +1017,7 @@ Mark A. Wilson
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="love,nostalgia,indirect" data-listing-date-sort="1669186800000" data-listing-file-modified-sort="1671226092226" data-listing-reading-time-sort="1.385">
+<div class="quarto-post image-right" data-index="22" data-categories="love,nostalgia,indirect" data-listing-date-sort="1669186800000" data-listing-file-modified-sort="1671226092226" data-listing-reading-time-sort="1.385">
 <div class="thumbnail">
 <p><a href="./posts/princess bride/index.html"> <img src="./posts/princess bride/20221019_084239 (1).jpg" class="thumnail-image"> </a></p>
 </div>
@@ -940,7 +1058,7 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="servant-leader,silence" data-listing-date-sort="1668495600000" data-listing-file-modified-sort="1671227882081" data-listing-reading-time-sort="0.11">
+<div class="quarto-post image-right" data-index="23" data-categories="servant-leader,silence" data-listing-date-sort="1668495600000" data-listing-file-modified-sort="1671227882081" data-listing-reading-time-sort="0.11">
 <div class="thumbnail">
 <p><a href="./posts/silence/index.html"> <img src="./posts/silence/20211228_085952 (1).jpg" class="thumnail-image"> </a></p>
 </div>
@@ -978,7 +1096,7 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="parents,heroes,lessons" data-listing-date-sort="1668236400000" data-listing-file-modified-sort="1671734140244" data-listing-reading-time-sort="1.565">
+<div class="quarto-post image-right" data-index="24" data-categories="parents,heroes,lessons" data-listing-date-sort="1668236400000" data-listing-file-modified-sort="1671734140244" data-listing-reading-time-sort="1.565">
 <div class="thumbnail">
 <p><a href="./posts/superheroes/index.html"> <img src="./posts/superheroes/dad_uncle.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -1019,9 +1137,9 @@ DK
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="intro,parents" data-listing-date-sort="1667368800000" data-listing-file-modified-sort="1671735707215" data-listing-reading-time-sort="0.055">
+<div class="quarto-post image-right" data-index="25" data-categories="intro,parents" data-listing-date-sort="1667368800000" data-listing-file-modified-sort="1674682807013" data-listing-reading-time-sort="0.105">
 <div class="thumbnail">
-<p><a href="./posts/welcome/index.html"> <img src="./posts/welcome/mom_dad.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./posts/welcome/index.html"> <img data-src="./posts/welcome/mom_dad.jpeg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/welcome/index.html">
@@ -1061,6 +1179,9 @@ DK
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

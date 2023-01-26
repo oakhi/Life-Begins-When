@@ -1,0 +1,14 @@
+{
+  "hash": "4f04c703d45af2aa4129a2ab1eb793fb",
+  "result": {
+    "markdown": "---\ntitle: \"Korean War UN Participnts\"\nauthor: \"DK\"\ndate: \"2023-01-24\"\ncategories: [gratitude, nostalgia]\nimage: \"20221213_182457-01.jpeg\"\n---\n\n\nCensus for 1950 lists Utah population as 688,864 persons.[^1]\n\n[^1]: https://www2.census.gov/library/publications/decennial/1950/population-volume-1/vol-01-47.pdf\n\nAccording a KSL-TV report in June, 2021, over 20,000 Utahns served during the Korean War.\n\n> \"More than 20,000 Utah veterans served in the Korean War. Around 12,000 live in the Beehive State now.\"\n\n2903.330701\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
