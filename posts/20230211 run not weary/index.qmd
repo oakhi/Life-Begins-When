@@ -1,0 +1,47 @@
+---
+title: "Run and Not be Weary"
+author: "DK"
+date: "2023-02-11"
+categories: [family, recollections]
+image: "IMG_1241.JPG"
+draft: true
+format:
+  html:
+    resources:
+      - audio.mp3
+      - MedicineMan.mp4
+---
+
+My parents were vibrant in their 70s, and active into their mid 80s.
+They maintained their independence and the curse of dementia was kept at bay until the very last.
+
+Tried to understand what was their source of vitality.
+
+I didn't see either grandfathers so I don't know if the genetics played a role.
+However, the grandmother on my father's side lived to be 92 and maternal grandmother lived to be 87.
+
+Two traits that helped them live a full and healthy life were their sense of gratitude and their outlook on life.
+
+My parents did not seek adventure nor fortune.
+
+They did live through colonial occupation, transition to communism, and the survival during a war that took 2-3 million civilian lives^[https://en.wikipedia.org/wiki/Korean_War]
+
+Having lived to some of the horrors and trials brought on by man-made conflicts, very few things could rattle them -- including poverty, hunger, or sickness.
+
+They were happy that they lived through aerial bombings, escape via fishing boat, participation in major battles, survive 3 POW episodes.
+
+Afterwards they could look back and thank the higher power or in their case, the Christian God.
+
+In the end they accomplished both adventure and fortune.
+
+#{{< video https://youtu.be/q9gfiVqQ5os >}}
+
+{{< video MedicineMan.mp4  >}}
+
+<figure>
+<figcaption>Click to listen</figcaption>
+<audio controls src="audio.mp3">
+        Your browser does not support the
+        <code>audio</code> element.
+</audio>
+</figure>
