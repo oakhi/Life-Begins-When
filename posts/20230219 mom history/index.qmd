@@ -1,0 +1,60 @@
+---
+title: "Mom's Early Days : In her own words"
+author: "DK"
+date: "2023-02-19"
+format:
+  html:
+    resources:
+      - Mom recals address.mp3
+categories: [family, recollection]
+image: "20230217_180419-01.jpeg"
+---
+
+## Excerpts from `Mom's Early Days`, written by mom.
+
+![Mom's Early Days](images/Epson_02192023180029(1).jpg)
+
+
+우리 엄마 사정을 본 이모는 한 명을 데려가서 공부를 시키겠다고 했다.
+
+처음에는 내가 갈 예정이었는데 엄마가 싫어해서 동생 현숙 이를 보냈다.
+
+그리고는 1947년인지 48년인지 기억이 잘 안 난다.
+
+그럼 몇 번 소식을 들었다.
+
+그렇게 헤어지고 이때까지 보지도 듣지도 못 했다.
+
+지금은 얼굴조차 잘 생각이 안 난다.
+
+너무너무 보고 싶은 내 동생 현숙이,
+
+내가 어찌 잊을 수 있겠는지
+
+쌍둥이 같이 자랐고
+
+눈물이 많아 같이 울고
+
+고생도 같이한 내 동생 현숙이가 아닌가
+
+너무 너무 보고싶고 그립다
+
+내가 죽기 전에 꼭 한 번이라도 만나 봤으면 얼마나 좋겠는지
+
+> 하나님 아버지 꼭 한 번이라도 만날 수 있도록 해 주세요
+>
+> 정말 정말 부탁합니다
+>
+> 진심으로 기도합니다
+>
+
+## A recording of my mom, recounting her family's address
+
+<figure>
+<figcaption>Mom was 89 at the time</figcaption>
+<audio controls src="Mom recals address.mp3">
+Your browser does not support the <code>audio</code> element.
+</audio>
+</figure>
+
+![](IMG_2293.JPG)
