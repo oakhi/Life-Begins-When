@@ -36,11 +36,21 @@ df %>%
   geom_point() +
   facet_wrap(~`Country Code`, scales = 'free')
 
+df
+
+df %>% 
+  gather(key, value, -c(1,2)) %>% 
+  filter(grepl('KOR', `Country Code`)) %>% 
+  ggplot(aes(as.numeric(key), value)) +
+  scale_y_continuous(labels = scales::dollar_format()) +
+  geom_line() 
+
 df %>% 
   gather(key, value, -c(1,2)) %>% 
   filter(`Country Code`==c('KOR', 'USA', 'JPN')) %>% 
   ggplot(aes(as.numeric(key), value, color=`Country Code`)) +
-  geom_point() 
+  geom_point() +
+  scale_y_continuous(labels = scales::dollar_format(), trans = 'log10') 
 
 df %>% 
   gather(key, value, -c(1,2)) %>% 

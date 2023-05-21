@@ -84,3 +84,4 @@ df %>%
   geom_line(aes(group=country)) +
   scale_y_continuous(trans = 'log10') +
   geom_vline(xintercept = as.Date(c('1962-12-31', '1973-12-31', '1990-12-31', '1998-12-31')))
+
