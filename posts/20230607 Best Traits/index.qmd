@@ -1,0 +1,183 @@
+---
+title: "Best of both Cultures"
+author: "DK"
+date: "2023-06-07"
+number-sections: true
+categories: [culture, difference]
+draft: yes
+image: "intro.jpg"
+---
+
+A visitor, a dinner guest once stated.
+
+> You have retained the best traits of 2 cultures : both your home country and your new country.
+
+He may have been practicing the time-honored tradition of thanking and praising the host.
+
+But, in case he meant it, his comment triggers these follow up questions.
+
+-   can their be a common trait for America?
+-   how can you aggregate individual characteristics and traits and yet represent the 300 million plus population
+-   if it exists, where can I find this summary of traits
+
+Before days of Internet, I obtained a copy of an article that outlined the `Common Traits of the American People`
+
+However, I have since misplaced that paper copy.
+
+I asked the `chat-GPT`[^1] to list the characteristic or traits of the American People. (See @sec-american for additional context).
+
+[^1]: https://en.wikipedia.org/wiki/Generative_pre-trained_transformer?oldformat=true
+
+------------------------------------------------------------------------
+
+When Sister K. married me, she expected me to represent and practice the American model of traits rather than the Korean model.
+
+She guessed incorrectly
+
+(See @sec-korean for additional context).
+
+By the time we met, I had lived in the United States longer than in Korea
+
+I spent secondary and high school years in the United States.
+
+However, I had lived in a Korean household and was raised in the Korean traditions.
+
+So even though I had ample time to learn and adjust to the American standards, in Sister K's eyes, I was not American enough.
+
+However, when Koreans, including the dinner guest that made the comment, see me they think of me as someone that thinks and behaves like an American or someone in between Korean and American.
+
+There are only 2 traits that overlap between Korea and American traits, namely, (strong) work ethic and patriotism/strong sense of national identity.
+
+That means, to be correct, I have to learn and carry 16 traits that cover both cultures or countries.
+
+That seems nearly impossible, or is it?
+
+## Chameleons and Adapters
+
+I have become good at assessing the social context, deriving social cues and acting accordingly.
+
+If the gathering is mostly older Koreans, I know how to act, based on traits \# 2, 3, and 4 (see, @sec-korean).
+
+Likewise, if the meeting is somewhat younger American neighbors, I would employ the following, \# 4, 6, and 7 (see, @sec-american)
+
+-   Am I disingenuous when I do this?
+-   Did my dinner guest judge me incorrectly?
+-   Will I continue to live the life of ambivalence?
+
+Feeling of being an outsider is something that I have learned to accept.
+
+However, even when I return to the country of birth, the same feeling lingers.
+
+-   What am I to do?
+-   How do I begin to resolve this?
+-   Does this even matter?
+
+## Not this OR that, but this AND that
+
+The answer may not be found in comparing and contrasting characteristics of this or any other countries
+
+But in finding higher, time proven standards that transcends these seemingly different traits that help us identify and categorize people into different cultures.
+
+Even though I have yet met a person that completely checks of all those characteristics or misses them completely.
+
+## The People of God; universal or primary traits
+
+One can learn a lot about the people by observing their public holidays and celebrations.
+
+As well as the myths and legends surrounding their start as a country or people.
+
+I imagine if there were written records records available for all the current cultures, there would be some overlapping tales.
+
+> How is it described in Hebrew scriptures.
+>
+> What are their religious observances?
+>
+> What are their characteristics?[^2]
+
+[^2]: see, Exodus Chapter 20
+
+-   Be God fearing and worship Him.
+
+-   Acknowledge, Seek Him and let others find Him.
+
+-   Remember and keep the sabbath day holy
+
+-   Honor thy father and thy mother
+
+-   Do not kill
+
+-   Do not commit adultery
+
+-   Do not steal
+
+-   Do not bear false witness
+
+-   Do not covet thy neighbor's possession
+
+In my limited travel, I have met these god fearing, neighbor loving people.
+
+They do not need a badge that shows their allegiance. Neither do they need to put on their religion identifying wardrobe.
+
+Their actions show what god they believe and are becoming.
+
+So to the dinner guest that thanked me and gave me praise.
+
+I hope to continue to pursue praiseworthy, or in words of Paul,[^3]
+
+[^3]: Philippians 4:8-9
+
+> ...if there be any virtue, and if there be any praise, think on these things
+
+![](main.jpeg)
+
+## Korean Traits {#sec-korean}
+
+The traits of Korean people, like any other cultural group, can vary among individuals, and it's important to avoid generalizations. However, there are some commonly mentioned characteristics associated with Korean culture and society. Here are some traits often associated with Korean people:
+
+1.  Strong Work Ethic: Koreans are often known for their strong work ethic and dedication to their studies or careers. There is an emphasis on hard work, perseverance, and discipline in order to achieve success.
+
+2.  Group Harmony and Collectivism: Korean society places value on collective goals and group harmony. There is a strong sense of loyalty to family, friends, and community, and an emphasis on maintaining social harmony and avoiding conflict.
+
+3.  Respect for Elders and Hierarchy: Koreans traditionally have a deep respect for their elders and value hierarchical relationships. Age and seniority are important factors in social interactions and decision-making.
+
+4.  Confucian Values: Confucianism has had a significant influence on Korean culture, emphasizing values such as filial piety, respect for authority, and the importance of education.
+
+5.  Strong Sense of National Identity: Koreans generally have a strong sense of national identity and pride in their history, language, and cultural heritage.
+
+6.  Emphasis on Education: Education is highly valued in Korean society, and there is a focus on academic achievement. Students often face high pressure to succeed academically, and education is seen as a pathway to future success.
+
+7.  Perseverance and Resilience: Koreans are often known for their resilience and ability to persevere through challenging circumstances. This trait is often attributed to the country's history and experiences of overcoming various hardships.
+
+8.  Respect for Tradition: Korean culture places value on preserving and respecting traditional customs and practices. Traditional values, rituals, and etiquette are still upheld in many aspects of Korean life.
+
+9.  Politeness and Courtesy: Koreans generally value politeness and courtesy in their interactions. There is an emphasis on showing respect and maintaining proper etiquette, particularly in formal settings.
+
+10. Strong Sense of Community: Koreans often have a strong sense of community and social responsibility. There is a willingness to help and support one another, and community ties play an important role in social life.
+
+It's important to remember that these traits are generalizations and may not apply to every individual. There is diversity within Korean society, and individuals may differ in their beliefs, values, and behaviors.
+
+## American Traits {#sec-american}
+
+The traits of American people can vary significantly due to the diverse and multicultural nature of the United States. However, there are some common characteristics often associated with Americans. It's important to note that these traits are generalizations and may not apply to every individual. Here are some commonly mentioned traits:
+
+1.  Individualism: Americans tend to value individual freedom, independence, and personal achievement. They often prioritize personal rights and the pursuit of individual goals.
+
+2.  Equality and Diversity: Americans generally value equality and equal opportunity, and they celebrate the country's diverse population. There is a strong belief in the idea of the "American Dream," where anyone, regardless of their background, can succeed through hard work and determination.
+
+3.  Patriotism: Many Americans have a strong sense of national pride and loyalty to their country. This is often displayed through symbols such as the American flag and participation in national holidays and events.
+
+4.  Optimism: Americans are often known for their optimistic outlook on life. There is a belief in the ability to overcome challenges and a general sense of hope for the future.
+
+5.  Entrepreneurial Spirit: Americans have a long history of entrepreneurship and innovation. Many individuals aspire to start their own businesses or pursue independent ventures.
+
+6.  Informality: Americans tend to be informal in their social interactions, using first names and generally being more relaxed in formal settings compared to some other cultures.
+
+7.  Openness and Friendliness: Americans are often perceived as friendly, open, and welcoming. They are often willing to engage in small talk with strangers and are known for their hospitality.
+
+8.  Work Ethic: Americans generally have a strong work ethic and value hard work, dedication, and productivity. There is often an emphasis on achieving success through diligence and perseverance.
+
+9.  Pragmatism: Americans are often practical and solution-oriented. They value efficiency and tend to focus on finding practical solutions to problems.
+
+10. Civic Engagement: Many Americans are actively involved in their communities and participate in civic and political activities, such as volunteering, voting, and advocating for causes they believe in.
+
+Remember that these traits are generalizations, and individual Americans may have different characteristics and beliefs. Additionally, due to the diversity within the United States, cultural and individual differences can be significant.
