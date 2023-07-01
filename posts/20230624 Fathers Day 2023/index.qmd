@@ -6,12 +6,14 @@ categories: [appreciation, remebrance]
 image: "intro.jpeg"
 ---
 
-There are times, during the summer, when holidays seem to run together.  
+There are times, during the summer, when holidays seem to run together.\
 Each year the meaning and purpose for the celebration seem less clear.
 
 Father's Day is one of those.
 
-According to Wikipedia, Father's Day^[https://en.wikipedia.org/wiki/Father%27s_Day] is
+According to Wikipedia, Father's Day[^1] is
+
+[^1]: https://en.wikipedia.org/wiki/Father%27s_Day
 
 > ... a holiday honoring one's father, or relevant father figure, as well as fatherhood, paternal bonds, and the influence of fathers in society.
 
@@ -21,7 +23,7 @@ At the entrance to the church meeting hall, there were beautifully wrapped 6" co
 
 There were several scores of cookies on display
 
-The individual that made these used a lot ingredients and took a long time to bake these.  
+The individual that made these used a lot ingredients and took a long time to bake these.
 
 A store bought cookies would have sufficed but the effort was certainly appreciated.
 
@@ -79,7 +81,7 @@ Back in the mid 1980s, Brother L. gave a talk as part of a ward Christmas devoti
 
 I was a newly returned missionary at the time, home from school.
 
-My world view consisted of information filtered through TV news, radio broadcasts, and the Washington Post.  And what we discussed and lived as an immigrant family.
+My world view consisted of information filtered through TV news, radio broadcasts, and the Washington Post. And what we discussed and lived as an immigrant family.
 
 My father was in his 50s.
 
@@ -97,20 +99,20 @@ I don't recall all of the supporting evidence he presented but he mentioned,
 
 Since then I have reflected on his observations.
 
-I have a far greater appreciation for his message.  
+I have a far greater appreciation for his message.\
 And for my own father.
 
 He espoused and demonstrated the role and the traits of the father .
 
-For many years my father worked in a hazardous environment.  
-But I don't recall him complaining or wishing that he had a different role.  
-I think he was happy to provide for the family.  
+For many years my father worked in a hazardous environment.\
+But I don't recall him complaining or wishing that he had a different role.\
+I think he was happy to provide for the family.\
 At the same time wishing that we realized a better living condition for ourselves and our children.
 
-Thank you Sisters S and H for the cookies and the Father's Day message.  
+Thank you Sisters S and H for the cookies and the Father's Day message.\
 Thank you Brother L. for planting a thought that kept me thinking all these years.
 
-Thank you Dad for providing all the earthly goods and means for our success. 
+Thank you Dad for providing all the earthly goods and means for our success.
 
 For demonstrating Father's traits and emulating the One.
 
