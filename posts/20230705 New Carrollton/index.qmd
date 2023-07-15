@@ -3,6 +3,7 @@ title: "Maryland Carrollton Ward : 1974 - 1984"
 author: "DK"
 date: "2023-07-05"
 categories: [kindess, church]
+draft: yes
 image: "intro.jpeg"
 ---
 
