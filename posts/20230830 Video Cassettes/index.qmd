@@ -3,33 +3,33 @@ title: "15 Years of Memory"
 author: "DK"
 date: "2023-08-30"
 categories: [technology]
+draft: yes
 image: "intro.jpeg"
 ---
 
-Went through 65 video tapes containg family or home recordings ^[These are stored in magnetic tapes, first developed in Germany back in 1928 [link](https://en.wikipedia.org/wiki/Magnetic_tape#:~:text=Magnetic%20tape%20is%20a%20medium,magnetic%20wire%20recording%20from%20Denmark.)]
+Went through 65 video tapes containg family or home recordings [^1]
 
-These recording contains first 15 years of our married life.
-Arrival of children and visits by family members and visits to places in US and abroad.
+[^1]: These are stored in magnetic tapes, first developed in Germany back in 1928 [link](https://en.wikipedia.org/wiki/Magnetic_tape#:~:text=Magnetic%20tape%20is%20a%20medium,magnetic%20wire%20recording%20from%20Denmark.)
 
-After 200 hours of viewing, editing, digitizing, and uploading these memories, these are some lessons learned^[Analog to Digital transfer is a real time process, and conversion from DV format to MP4 format takes roughly 2X times.  2 minutes of DV video takes about 4 to 5 minutes to convert to MP4 format).
+These recording contains first 15 years of our married life. Arrival of children and visits by family members and visits to places in US and abroad.
 
-* Note : Discussions on the travel will be limited to that visit to Europe as a family some 20 years ago. *
+After 200 hours of viewing, editing, digitizing, and uploading these memories, these are some lessons learned\^\[Analog to Digital transfer is a real time process, and conversion from DV format to MP4 format takes roughly 2X times. 2 minutes of DV video takes about 4 to 5 minutes to convert to MP4 format).
+
+-   Note : Discussions on the travel will be limited to that visit to Europe as a family some 20 years ago. \*
 
 ## Lesson 1 : Children live on encouragement
 
-11 month old child is about to fall again, but he takes another step.
-Siblings are cheering, mom and dad are extending their hands.
-The child smiles as he takes one step after another.
+11 month old child is about to fall again, but he takes another step. Siblings are cheering, mom and dad are extending their hands. The child smiles as he takes one step after another.
 
-When children are litle and they are trying something new, everyone encourages him or her.
-As they grow older, not so much attention.
+When children are litle and they are trying something new, everyone encourages him or her. As they grow older, not so much attention.
 
 Why is that so?
 
 ## Lesson 2 : It is not how but where
 
-Visited Europe as a family, a part of tour package.
-We flew across Siberia, bused through Alps^[tunnels were closed due to a fire], trained across France on TGV, flew across the Channel.
+Visited Europe as a family, a part of tour package. We flew across Siberia, bused through Alps[^2], trained across France on TGV, flew across the Channel.
+
+[^2]: tunnels were closed due to a fire
 
 Our destination was major cities of the western Europe.
 
@@ -47,46 +47,35 @@ In this life, not knowing in full is normal.
 
 ## Lesson 4 : Our parents showed us how to live
 
-ON that trip to Europe, my father was 70, my mother was 68.
-Yet, not only they kept up with young people but also helped with little ones.
-They also had curiosity and wanted to learn as much as possible
+ON that trip to Europe, my father was 70, my mother was 68. Yet, not only they kept up with young people but also helped with little ones. They also had curiosity and wanted to learn as much as possible
 
-On life's journey, it is good to have seasoned guides .
-Also to see how to age well and not be afraid of life.
+On life's journey, it is good to have seasoned guides . Also to see how to age well and not be afraid of life.
 
 ## Lesson 5 : Focus on the People
 
 Doesn't matter how you get to your destination, it is the people that you travel with that matters.
 
-Was surprise how unimportant and unintersting various modes of travelling.
-Trains, Buses, Airplanes, Boats, are some of means of getting to destinations.
-But after few decades, it seemed to matter the least in those footages.
+Was surprise how unimportant and unintersting various modes of travelling. Trains, Buses, Airplanes, Boats, are some of means of getting to destinations. But after few decades, it seemed to matter the least in those footages.
 
-People, however, were interesting to look at.
-How they conversed, how they spent their time.
+People, however, were interesting to look at. How they conversed, how they spent their time.
 
 ## Lesson 6 : Buildings vs Nature
 
-Buildings were interesting at the time of visit
-Viewing again, it is a fixed object whereas people have grown, changed and moved on.
+Buildings were interesting at the time of visit Viewing again, it is a fixed object whereas people have grown, changed and moved on.
 
-One is static, man-made, decaying
-The other is evolving, renewed, and eternal.
+One is static, man-made, decaying The other is evolving, renewed, and eternal.
 
-Hard to capture majesty of nature.
-We will always try, either using photography or videos.
-Most important is the feeling or inspiration gained and whether our lives have changed because we came in contact with the nature
+Hard to capture majesty of nature. We will always try, either using photography or videos. Most important is the feeling or inspiration gained and whether our lives have changed because we came in contact with the nature
 
-## Lesson 7 : Importance of Meals 
+## Lesson 7 : Importance of Meals
 
-I may not recall most of the sites that we visited.
-However, I can remember all of the meals we ate.
+I may not recall most of the sites that we visited. However, I can remember all of the meals we ate.
 
-- Chinese meal in London.
-- Escargo in Paris
-- Fondue in Chamonix
-- Pasta in Florence
-- Pizza in Rome
+-   Chinese meal in London.
+-   Escargo in Paris
+-   Fondue in Chamonix
+-   Pasta in Florence
+-   Pizza in Rome
 
 Perhaps it was the local (except in London) preparation, every dish was delicious.
 
@@ -100,16 +89,13 @@ Saw a number of instances with Sister K and I tried to have our children act in 
 
 Forced compliance.
 
-Best videos all had this in common.
-It was spontaneous.
-Letting children say and do based on their understanding at that time.
+Best videos all had this in common. It was spontaneous. Letting children say and do based on their understanding at that time.
 
-One of the memorable moment was when our 3.5 year old daughter and her 2 year old brother acted out the highlights of Snow White  -- all from her memory.
+One of the memorable moment was when our 3.5 year old daughter and her 2 year old brother acted out the highlights of Snow White -- all from her memory.
 
-## Lesson 9 :  Not where but when
+## Lesson 9 : Not where but when
 
-The travel was tightly planned.
-For the most part, it went as planned.
+The travel was tightly planned. For the most part, it went as planned.
 
 But when the train ride through the Alps was replaced by a bus ride, it meant we arrived in Milan at night.
 
@@ -123,8 +109,7 @@ That allows us to be at certain location at a given time to capture the ideal im
 
 ## Lesson 10 : There is beauty all around
 
-I would jump at an opportunity to travel to Europe or Asia again.
-However, if my international travel days are over, I am satisfied with my past journeys.
+I would jump at an opportunity to travel to Europe or Asia again. However, if my international travel days are over, I am satisfied with my past journeys.
 
 For I have discovered that near home and at home is where most significant events and people are.
 
@@ -134,4 +119,4 @@ But greatness and beauty are made and captured a little by little, some captured
 
 Life is wonderful and lovely, both near and far.
 
-We can usually predict, with a high degree of accuracy, whether 
+We can usually predict, with a high degree of accuracy, whether

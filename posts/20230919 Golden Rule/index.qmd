@@ -1,0 +1,21 @@
+---
+title: "Golden Rule"
+author: "DK"
+date: "2023-09-19"
+categories: [memories, technology]
+draft: yes
+image: "intro.jpeg"
+---
+
+Each culture practices the Golden Rule
+
+> Whatsoever man would do to you, do even so to them
+
+## Positive Variations
+
+## Negative Variations
+
+
+Taken to excess, it may be summarized.
+
+> "Whatever I decide is good for you, that I will do"
