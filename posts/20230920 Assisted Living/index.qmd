@@ -6,10 +6,10 @@ categories: [service, healing]
 image: "intro.jpeg"
 ---
 
-Thought Nurse Beth had just reported to work.  
+Thought Nurse Beth had just reported to work.\
 Turns out she was finishing up her 12-hour shift and was headed home.
 
-She still had enough energy to fuel or recharge at least 2 persons.  
+She still had enough energy to fuel or recharge at least 2 persons.\
 And with that energy, she radiated love for not only the patient but for all in the room.
 
 > Can that level of warmth be obtained through training?
@@ -20,33 +20,27 @@ Although I was a visitor that day, I had been lifted.
 
 Specifically, given a booster to, overcome and heal from doubts about life that I may have had or will have in the future.
 
----
+------------------------------------------------------------------------
 
-![](main3.jpeg)
----
+## ![](main3.jpeg)
 
 There are certain modern phrases that are initially shunned, then accepted and eventually fully embraced.
 
 One such phrase is `assisted living`.
 
-Initially, the word and the concept behind it, is alien and is only applicable to others. 
+Initially, the word and the concept behind it, is alien and is only applicable to others.
 
-Because it seems like contradictory terms. 
-You are either living or are assisted, but not at the same time.
+Because it seems like contradictory terms. You are either living or are assisted, but not at the same time.
 
 3 experiences helped me accept and embrace it.
 
 ## Tuesdays with Morrie
 
-During my traveling days, one of the hotel chains had a free book campaign.
-Take a book, read it, return it, if you are in the neighborhood.
+During my traveling days, one of the hotel chains had a free book campaign. Take a book, read it, return it, if you are in the neighborhood.
 
 Some memorable lines from the book,
 
-> The culture we have doesn't make people feel good about themselves.
-We are teaching the wrong things.
-You have to be strong enough to say, if the culture doesn't work, don't use it.
-Create your own culture.
+> The culture we have doesn't make people feel good about themselves. We are teaching the wrong things. You have to be strong enough to say, if the culture doesn't work, don't use it. Create your own culture.
 
 Which side wins?
 
@@ -58,32 +52,29 @@ Coincidentally, I headed back home, from the expat assignment, within 2 years of
 
 ## A Co-worker with ALS
 
-K was head of the Payroll Group, C was her assistant.  
+K was head of the Payroll Group, C was her assistant.\
 I had my cubicle outside of their office.
 
-K was diagnosed with ALS^[Amyotrophic Lateral Sclerosis]. 
-She was assisted by C.
+K was diagnosed with ALS[^1]. She was assisted by C.
+
+[^1]: Amyotrophic Lateral Sclerosis
 
 I never suspected K was ill, because she was always cheerful.
 
-Recall that Halloween when K chose to wear a home-made NY Yankees jersey. 
-It was Lou Gehrig's uniform.
+Recall that Halloween when K chose to wear a home-made NY Yankees jersey. It was Lou Gehrig's uniform.
 
-![](IMG_8144.JPG)
+![](IMG_8144_crop.JPG)
 
-We became closer as we shared notes and talked about our sons on missions.
-Her's to Riverside, California learning Mandarin, mine to Fukuoka, Japan.
+We became closer as we shared notes and talked about our sons on missions. Her's to Riverside, California learning Mandarin, mine to Fukuoka, Japan.
 
 Recall the ice bucket challenge hosted by the R&D Group.  
 Its group leader also battle ALS.
 
-Later on C had to help K.
-More than office duties.
+Later on C had to help K. More than office duties.
 
 Even though K could have stayed home, she still came to work a few times a week.
 
-5 years ago this month, K passed away at age 53.
-Grateful for examples from K and C.
+5 years ago this month, K passed away at age 53. Grateful for examples from K and C.
 
 (Years later, K's daughter and C's son married each other)
 
@@ -91,8 +82,7 @@ Grateful for examples from K and C.
 
 My parents and Sister K's parents have all passed away
 
-Each endured and was assisted during their latter days.
-Cycle of a visit to doctors and hospitals, followed by a stay at the rehabilitation place.
+Each endured and was assisted during their latter days. Cycle of a visit to doctors and hospitals, followed by a stay at the rehabilitation place.
 
 Their individual experiences varied, but they did share one common attribute.
 
@@ -102,15 +92,14 @@ They lived a full life and showed us how to deal with physical ailments and agin
 
 And I believe there were loved ones, sustaining and comforting, on both sides of life and death.
 
-They chose living, even if it meant assisted living. 
+They chose living, even if it meant assisted living.
 
-> "But there was no need to be ashamed of tears, for tears bore witness that a man had the greatest of courage, the courage to suffer."   
+> "But there was no need to be ashamed of tears, for tears bore witness that a man had the greatest of courage, the courage to suffer."\
 > ― Viktor E. Frankl, Man's Search for Meaning
 
-![](main2.jpeg)
-It is easier to think that assisted living applies 2 extremes of our lives.
+![](main2.jpeg) It is easier to think that assisted living applies 2 extremes of our lives.
 
-When we are born until we are independent.  
+When we are born until we are independent.\
 And when we stop being independent to when we die
 
 Then one realizes that it is, and always will be an assisted living in this life.
@@ -119,13 +108,13 @@ We are never fully alone, assisted by both seen and unseen.
 
 Always feeling the presence of help nearby.
 
----
+------------------------------------------------------------------------
 
 It is our task to be more like Morrie the Professor, K, and our parents.
 
 As Professor Morrie stated,
 
->To give to the world what we possess.
+> To give to the world what we possess.
 
 And be present and lift others as Nurse Beth did that night at the `Honor Health Scottsdale`.
 
