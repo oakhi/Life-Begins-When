@@ -1,0 +1,125 @@
+---
+title: "Recollections and Memories : Why Blog?"
+author: "DK"
+date: "2023-12-04"
+categories: [technology, memories]
+image: "main1.jpeg"
+---
+Shared a video clip with a former colleague. 
+
+The setting was a farewell luncheon held at Morelia’s (now called Casa Linda) near the Fashion Place Mall.
+
+But I had difficulty remembering names of people in the video.
+
+I recognize their faces and their roles but I could only remember the names of roughly half the people present.
+
+That luncheon was held in December 1998.
+
+---
+
+Taking notes used to be an option but now it is becoming essential -- if I want to remember places, time and names.
+
+These and other factors made me write down my recollections, rather than solely relying on memories.
+
+---
+
+This is the greatest era for capturing and archiving memories.
+
+There are innumerable ways to record or capture ideas or memories using audio, video, written with a physical pen/ink or with an electronic pen/ink.
+
+There are apps and programs that will convert one medium to another.
+There are equally numerous ways to disseminate and share the content.
+
+During a recent conversation, one commented
+
+> People in the past did many things with very little.
+> Today, we have many, great things, What will we leave behind?
+
+![](main3.jpeg)
+
+## Which medium and manner of record keeping
+
+It is said that a picture is worth a thousand words.
+It is also true that a typical photo takes nearly 5 Million bytes of storage space.
+
+The `Twitter` (now `X`) began with 120 character limit.
+
+Nearly 40,000 times difference between a digitized photo and a character based message.
+
+This passage from the Book of Mormon seems to address a similar situation.
+
+### Mormon Chapter 9
+
+> 32 And now, behold, we have written this record according to our knowledge, in the characters which are called among us the reformed Egyptian, being handed down and altered by us, according to our manner of speech.
+
+> 33 And if our plates had been sufficiently large we should have written in Hebrew; but the Hebrew hath been altered by us also; and if we could have written in Hebrew, behold, ye would have had no imperfection in our record.
+
+Which codec (tools that will code and decode electronically or digitally), tools will survive.
+
+The best way is to implant messages or thoughts in our minds and hearts.
+Without using any external means.
+
+However, in the absence of the implanting method and with limited and deteriorating memories, I need to choose which medium and method. 
+
+## 4 years in Korea
+
+Of our 4 children that learned Korean, only 1 didn’t remember it after returning to America.
+
+The youngest never learned the written language.
+
+Therefore, even though his speaking ability was developed, he soon forgot when he joined the American school system.
+
+While it is true that images and videos carry the message far more efficiently, there is an advantage of learning and conveying message via written language or characters.
+
+It is compact and can outlast any other formats for storing and retrieving information.
+
+If the right medium is chosen.
+
+## An alternate reason
+
+Nephi states,
+
+> 2 Yea, I make a record in the language of my father, which consists of the learning of the Jews and the language of the Egyptians.
+
+> 3 And I know that the record which I make is true; and I make it with mine own hand; and I make it according to my knowledge.
+
+> 1 I, Nephi, having been born of goodly parents, therefore I was taught somewhat in all the learning of my father; and having seen many afflictions in the course of my days, nevertheless, having been highly favored of the Lord in all my days; yea, having had a great knowledge of the goodness and the mysteries of God, therefore I make a record of my proceedings in my days.
+
+It unlikely that records will survive more than a generation.
+
+But perhaps by remembering and recording events of my life.
+I will come to realize the goodness of the Lord and absolute faith of my parents.
+
+That I was favored, protected and guided through this life.
+
+In doing so, I hope to stay rooted in the faith of my parents.
+
+Remembering that I am a temporal guest -- a sojourner.
+
+![](main2.jpeg)
+
+# Technical Notes
+
+A phone app that captures both audio recording and words are transcribed simultaneously.
+
+MS Word has a dictation function and Google Docs has a voice typing feature.
+
+## One Possible Workflow 
+
+Write down the recollections on paper or iPad. OR
+Make an audio memo, send emails to myself. OR
+Use whatever tools are nearby to collect thoughts.
+
+Gather above material as a text into a Google Docs.
+Google Docs provides an easy way to compile and convenience of multiple language 
+
+## Multimedia Handling 
+
+Any digitized resource can be added and modified or enhanced by modern tools.
+Though raw or original state is preferred, there are times, one has to edit for clarity or to fix physical damages
+
+## R, R Studio and Quarto
+
+Used for compiling, formatting and integrating based on the markdown tools.
+
+Final product is uploaded to Github pages.
