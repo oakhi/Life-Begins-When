@@ -1,0 +1,71 @@
+---
+title: "A future dialogue with a grandson, Episode 3"
+author: "DK"
+date: "2023-12-08"
+categories: [future, dialogue]
+image: "intro.jpeg"
+---
+
+손자/孫子:\
+Grandpa, why are old people so predictable?
+
+Older Me:\
+You mean why are we so boring?
+
+손자/孫子:\
+I didn't say that...but maybe I meant it.
+
+![](main1.jpeg)
+
+Older Me:\
+We may be boring but we are not bored, but that discussion is for another time. You remember the Central Limit Theorem, please explain it to me.
+
+손자/孫子:\
+Something like, the distribution of a sample variable approximates a normal distribution as the sample becomes larger.
+
+ChatGPT 101.WRX Turbo says, \
+
+>So, the central limit theorem tells us that even if the individual measurements are not normally distributed, their averages tend to follow a normal distribution when you have a lot of them. This makes it easier for us to make predictions and understand the behavior of averages in a variety of situations.
+
+> In simpler terms, it's like saying if you keep taking the average of a bunch of measurements, no matter what those measurements are, the results will look like a nice, predictable bell curve. It's a helpful tool in statistics that lets us make sense of randomness and understand patterns in data
+
+Older Me:\
+Each old person is a sample variable and their experiences, trials, disappointments, failures, and reversals in fortune constitute a sample.
+
+![](main2.jpeg)
+
+손자/孫子:\
+OK. So as one ages, our individual attributes fade and universal truths prevail and lessons deepen. But what about the good things that happen to individuals?
+
+Older Me:\
+You asked what makes us so predictable. Each person is given moments of happiness or their 15 minutes (perhaps 15 nano seconds now days) of fame and may feel joy for a period of time.
+
+Individual differences and "moments in the spotlight" makes this life interesting or enjoyable.
+
+But it is those times that we face setbacks and challenges that define and unite us as a "predictable" part of the human race.
+
+손자/孫子:\
+Can I get to the truth or that level of understanding without going through life's trials?
+
+Older Me:\
+What does the Central Limit Theorem predict?\
+What do great literature and sacred writings teach? What do you think?
+
+손자/孫子:\
+Our objective in life is to go through and gain experiences that define us.\
+There is no short-cut.\
+No matter how much some parents try to shield us from those experiences.
+
+Older Me:\
+I think you learned it well. It's getting late. You better go pick up your date. What vehicle do you drive/fly nowadays?
+
+손자/孫子:\
+Tesla XYZ, the one with vertical take-off and landing and available full auto-pilot mode.
+
+Older Me:\
+In that case, you will need some extra funds for the upkeep. Here are 100 Bitcoins (BTC) for you. What does the new inscription say on the coin?
+
+손자/孫子:\
+"In Musk we trust?"
+
+![](main3.jpg)
