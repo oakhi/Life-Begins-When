@@ -7,7 +7,6 @@ format:
     resources:
       - mom_escape.mp3
 categories: [sayings]
-draft: yes
 image: "intro.jpeg"
 ---
 
@@ -36,11 +35,18 @@ The harvest determined whether there was food during the winter months that will
 
 ## The proverbs are original and enduring Twitter (or X)
 
+Decisive advantage old proverbs have over modern sayings is that they are well tested and proven.
+
+Perhaps they are the original LLM^[Large Language Model].
+Tested on large sample of people and situation.
+Thus earning the same label, GPT
+`Generational Personalized Training`.
+
 The saying
 
 > Well publicized event has no food
 
-is helpful to filter modern day situations as well.
+is helpful to assess or filter modern day situations as well.
 
 Some ways to keep from being disappointed.
 
@@ -113,17 +119,20 @@ They placed the blanket they had brought and slept on that makeshift survival ar
 
 For Zhang Liang persistence and being early for an appointment meant gaining the wisdom literature. 
 
-If the legends are correct.
+[If the records and legends are correct].
 
 For my mother's family.  
 
 Being early meant escaping the North at a time when the UN Forces were also withdrawing.
 
-By not being on that boat, the family may have not escaped North.
+If they missed that hired boat, the family may have not have escaped North.
 
 My mother's family was able to start a new life in Incheon (인천) a few years later.
 
-The lessson from that boat encounter will stay with our family
+The lessson from that boat encounter will stay with our family, as a personalized, Chat GPT API.^[per Chat GPT, As of my last knowledge update in January 2022, OpenAI offers an API (Application Programming Interface) for their GPT models, including ChatGPT. The API allows developers to integrate the capabilities of these language models into their own applications, products, or services.
 
+The ChatGPT API enables developers to make calls to the OpenAI servers, sending input prompts and receiving model-generated responses in return. This way, developers can leverage the power of ChatGPT for various natural language processing tasks, such as conversational interfaces, content generation, and more.
+
+Keep in mind that details about OpenAI's offerings, including APIs and models, may have evolved since my last update. I recommend checking the official OpenAI website or documentation for the most current and accurate information on their API and other products.]
 
 ![](main3.jpeg)
