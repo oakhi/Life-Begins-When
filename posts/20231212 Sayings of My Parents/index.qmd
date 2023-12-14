@@ -2,48 +2,128 @@
 title: "Well Publicized"
 author: "DK"
 date: "2023-12-12"
+format:
+  html:
+    resources:
+      - mom_escape.mp3
 categories: [sayings]
 draft: yes
 image: "intro.jpeg"
 ---
 
-Well publicized event has no food
+My parents’ favorite Old Korean Proverb was,
 
-This one saying summarizes the entirety of my parents life.
+소문난 잔치에 먹을거 없다
 
-The saying is old When food was central or essential to life Common greeting in Korea used to be, Have you eaten. The harvest could speel whether there is food during the winter months
+Well publicized event has no food.^[Chat GPT interpretation, The literal translation of "소문난 잔치에 먹을거 없다" from Korean to English is "There is nothing to eat at the famous feast." However, this expression is often used idiomatically to convey a sense of disappointment or unmet expectations. In English, a similar expression might be "There's nothing to eat at the big event" or "There's no food at the renowned feast."]
+
+The word 소문 can mean a `rumor`
+So an alternate interpretation may be
+
+> A rumored feast turned out to be a disappointment.
+
+Korea faced food shortage well into the 20th century, so this is no passing phrase.
+
+![](main.jpeg)
+
+This one saying can summarize the entirety of my parents generation
+
+When shortage of food was central or essential life's concern the common greeting in Korea used to be, 
+
+> Have you eaten. 
+
+The harvest determined whether there was food during the winter months that will last into the spring
 
 ## The proverbs are original and enduring Twitter (or X)
 
-Covers many aspects of modern life
+The saying
 
-Why would anyone want to share their `Pearl of Great Price` I would want to hoard it.
+> Well publicized event has no food
 
-It is either not that Pearl or they are genuinely interested in help you become wealthy
+is helpful to filter modern day situations as well.
 
-## Material Goods vs Relationships
+Some ways to keep from being disappointed.
 
-My mother's side are merchants. They know how to build wealth through trades.
+- Be aware of sources of rumor.
+- Avoid big feast, or gatherings, ones with long lines 
+- If one must attend the feast, eat some before arriving.  In case food runs out or it is not what you expected.
 
-They are also truth seekers. After going through several options, including the Jewish faith.\
-They chose the teachings of Christ.
+## Story of 張良 at Yishui Bridge^[as recorded in Wikipedia]
 
-What is enough The purpose of gathering material wealth.
+Old people tend to arrive at an appointment early.
 
-Seek first the kingdom and its righteousness and others will be added.
+張良(Zhang_Liang_(Western_Han)) learned his lesson from Huang Shigong (黃石公)
 
-They put that to test and passed it.
+Huang Shigong told Zhang Liang to meet him at a bridge for a follow up lesson.
 
-## Story of Chang Ryang
+But when 張良 went to the bridge, at the appointed hour, the old master was already there.
 
-Tested patience and timing to teach
+Another encounter 5 days later.
+Same thing happened
 
-## Story of escape from North
+On the third try, 張良 went to the bridge at midnight and waited for the master.
+
+張良 was given a set of treatise on Warfare and how to manage the affairs of kingdom.^[Six Secret Teachings by Jiang Ziya]
+
+張良 is considered one of the 3 pillars that established the Han Dynasty.
+
+My mom's family also learned a lesson about arriving early for an appointment.
+
+![](main2.jpeg)
+
+## A Story of an Escape from North Korea
 
 The boat had space for 40 individuals but only 13 made it.
 
-10 virgin story.
+The boat, that was to take my mother's family to South Korea, came earlier than scheduled. 
 
-The boat came earlier than scheduled. The resistance or shooting was lighter
+The escapte boat faced less resistance or shooting was lighter than expected.
 
-The audio recording.
+In her own words, this is how she escaped during the winter of 1949/50.
+
+## An Audio Recording from November 2017
+
+She recounts her escape from North Korea on January 1950. Recording made when mother was 85.  
+
+<figure>
+<figcaption>Click to Listen</figcaption>
+<audio controls src="mom_escape.mp3">
+Your browser does not support the <code>audio</code> element.
+</audio>
+</figure>
+
+The boat had capacity of 40 but only 13 boarded.
+Because the boat arrived earlier than scheduled.
+
+While escaping, a machine gun was firing from the shore and planes were dropping bombs on them.
+
+[Perhaps because mom and dad suffered when they were young, they were able to overcome trials that came later]
+
+When the boat arrived at the appointed island, the whole island had been bombed.  All 20 homes were destroyed  
+
+And the snow covered the ground
+
+Two young men that came on the boat started digging a hole for the family to sleep.
+
+As they dug, there were more ashes on the ground.
+
+They placed the blanket they had brought and slept on that makeshift survival arrangement.
+
+---
+
+For Zhang Liang persistence and being early for an appointment meant gaining the wisdom literature. 
+
+If the legends are correct.
+
+For my mother's family.  
+
+Being early meant escaping the North at a time when the UN Forces were also withdrawing.
+
+By not being on that boat, the family may have not escaped North.
+
+My mother's family was able to start a new life in Incheon (인천) a few years later.
+
+The lessson from that boat encounter will stay with our family
+
+
+![](main3.jpeg)
