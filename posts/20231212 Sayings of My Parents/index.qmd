@@ -1,5 +1,5 @@
 ---
-title: "Well Publicized"
+title: "Sayings of My Parents"
 author: "DK"
 date: "2023-12-12"
 format:
@@ -50,8 +50,8 @@ is helpful to assess or filter modern day situations as well.
 
 Some ways to keep from being disappointed.
 
-- Be aware of sources of rumor.
-- Avoid big feast, or gatherings, ones with long lines 
+- Be aware of, verify, sources of rumor.
+- Avoid big feast, or gatherings, ones with long lines. Matthew 7:13(https://www.biblegateway.com/verse/en/Matthew%207%3A13)
 - If one must attend the feast, eat some before arriving.  In case food runs out or it is not what you expected.
 
 ## Story of 張良 at Yishui Bridge^[as recorded in Wikipedia]
@@ -83,7 +83,7 @@ The boat had space for 40 individuals but only 13 made it.
 
 The boat, that was to take my mother's family to South Korea, came earlier than scheduled. 
 
-The escapte boat faced less resistance or shooting was lighter than expected.
+The escape boat faced less resistance or the shooting was lighter than expected.
 
 In her own words, this is how she escaped during the winter of 1949/50.
 
@@ -129,10 +129,6 @@ If they missed that hired boat, the family may have not have escaped North.
 
 My mother's family was able to start a new life in Incheon (인천) a few years later.
 
-The lessson from that boat encounter will stay with our family, as a personalized, Chat GPT API.^[per Chat GPT, As of my last knowledge update in January 2022, OpenAI offers an API (Application Programming Interface) for their GPT models, including ChatGPT. The API allows developers to integrate the capabilities of these language models into their own applications, products, or services.
-
-The ChatGPT API enables developers to make calls to the OpenAI servers, sending input prompts and receiving model-generated responses in return. This way, developers can leverage the power of ChatGPT for various natural language processing tasks, such as conversational interfaces, content generation, and more.
-
-Keep in mind that details about OpenAI's offerings, including APIs and models, may have evolved since my last update. I recommend checking the official OpenAI website or documentation for the most current and accurate information on their API and other products.]
+The lessson from that boat encounter will stay with our family.
 
 ![](main3.jpeg)
