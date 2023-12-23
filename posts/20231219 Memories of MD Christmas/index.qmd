@@ -34,7 +34,7 @@ As an immigrant I learned how to read, write and speak in English through the Pr
 
 However, I learned how to live this life, as a follower of Christ, in a congregation of saints
 
-## First few years of Transition
+---
 
 Figuring out the church schedule was a challenge, since we couldn’t understand the announcement.
 We missed our share of meetings due to Stake and General Conferences and missed the starting time, due to not understanding the Daylight Savings Time.
@@ -79,7 +79,7 @@ But my mother was convinced that it was the right choice for her and the family.
 Within 3 years, we were boarding a plane headed for Anchorage.
 On our way to a new home in the Washington DC area.
 
-[How Washington DC was chosen, see, ]
+[How Washington DC was chosen, see, [link](https://oakhi.github.io/Life-Begins-When/posts/20230705%20New%20Carrollton/)]
 
 ---
 
@@ -89,7 +89,7 @@ I remember gatherings in Maryland at Christmas time.
 
 Was asked to learn Christmas Carol to be sung at the Church.  Not exposed to music up until then, I struggled to learn, but I still recall the refrains of `Angels We Have Heard...`
 
-{{< video https://www.youtube.com/embed/anV7_4NNiFQ >}}
+{{< video https://www.youtube.com/embed/anV7_4NNiFQ width="400" height="300" >}}
 
 Participated in Christmas Devotional at the Church.  Where many difficult concepts were explained in plain, parent-like mannners.
 
