@@ -1,0 +1,2808 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Quarto Blog - Life Begins When…</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="alternate" type="application/rss+xml" title="Quarto Blog" href="index.xml"></head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Quarto Blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="./index.xml" rel="" target=""><i class="bi bi-rss" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Life Begins When…</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(63)</span></div><div class="category" data-category="Christmas">Christmas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="alone">alone <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ancestors">ancestors <span class="quarto-category-count">(1)</span></div><div class="category" data-category="appreciation">appreciation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="celebration">celebration <span class="quarto-category-count">(1)</span></div><div class="category" data-category="church">church <span class="quarto-category-count">(1)</span></div><div class="category" data-category="compassion">compassion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dad">dad <span class="quarto-category-count">(1)</span></div><div class="category" data-category="decisions">decisions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dialogue">dialogue <span class="quarto-category-count">(1)</span></div><div class="category" data-category="divided">divided <span class="quarto-category-count">(3)</span></div><div class="category" data-category="dreams">dreams <span class="quarto-category-count">(5)</span></div><div class="category" data-category="faith">faith <span class="quarto-category-count">(2)</span></div><div class="category" data-category="family">family <span class="quarto-category-count">(8)</span></div><div class="category" data-category="friendship">friendship <span class="quarto-category-count">(1)</span></div><div class="category" data-category="friendships">friendships <span class="quarto-category-count">(1)</span></div><div class="category" data-category="future">future <span class="quarto-category-count">(6)</span></div><div class="category" data-category="gathering">gathering <span class="quarto-category-count">(1)</span></div><div class="category" data-category="gatherings">gatherings <span class="quarto-category-count">(1)</span></div><div class="category" data-category="goodness of fit">goodness of fit <span class="quarto-category-count">(1)</span></div><div class="category" data-category="gratitude">gratitude <span class="quarto-category-count">(7)</span></div><div class="category" data-category="guidance">guidance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="healing">healing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="heroes">heroes <span class="quarto-category-count">(1)</span></div><div class="category" data-category="hometown">hometown <span class="quarto-category-count">(1)</span></div><div class="category" data-category="hope">hope <span class="quarto-category-count">(1)</span></div><div class="category" data-category="independence">independence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="indirect">indirect <span class="quarto-category-count">(1)</span></div><div class="category" data-category="intro">intro <span class="quarto-category-count">(1)</span></div><div class="category" data-category="kindess">kindess <span class="quarto-category-count">(1)</span></div><div class="category" data-category="korean war">korean war <span class="quarto-category-count">(2)</span></div><div class="category" data-category="lessons">lessons <span class="quarto-category-count">(2)</span></div><div class="category" data-category="longing">longing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="love">love <span class="quarto-category-count">(1)</span></div><div class="category" data-category="marriage">marriage <span class="quarto-category-count">(1)</span></div><div class="category" data-category="memories">memories <span class="quarto-category-count">(4)</span></div><div class="category" data-category="memory">memory <span class="quarto-category-count">(2)</span></div><div class="category" data-category="mercy">mercy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mother">mother <span class="quarto-category-count">(1)</span></div><div class="category" data-category="music">music <span class="quarto-category-count">(1)</span></div><div class="category" data-category="nation">nation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="nature">nature <span class="quarto-category-count">(1)</span></div><div class="category" data-category="neighbor">neighbor <span class="quarto-category-count">(1)</span></div><div class="category" data-category="nostalgia">nostalgia <span class="quarto-category-count">(3)</span></div><div class="category" data-category="opportunities">opportunities <span class="quarto-category-count">(2)</span></div><div class="category" data-category="parent">parent <span class="quarto-category-count">(1)</span></div><div class="category" data-category="parents">parents <span class="quarto-category-count">(3)</span></div><div class="category" data-category="recollection">recollection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="recollections">recollections <span class="quarto-category-count">(5)</span></div><div class="category" data-category="records">records <span class="quarto-category-count">(2)</span></div><div class="category" data-category="remebrance">remebrance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="rememberance">rememberance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="remembrace">remembrace <span class="quarto-category-count">(1)</span></div><div class="category" data-category="remembrance">remembrance <span class="quarto-category-count">(4)</span></div><div class="category" data-category="renewal">renewal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="resolve">resolve <span class="quarto-category-count">(1)</span></div><div class="category" data-category="resurrection">resurrection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sayings">sayings <span class="quarto-category-count">(1)</span></div><div class="category" data-category="seeking">seeking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="servant-leader">servant-leader <span class="quarto-category-count">(1)</span></div><div class="category" data-category="service">service <span class="quarto-category-count">(1)</span></div><div class="category" data-category="silence">silence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="snow">snow <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sports">sports <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sunset">sunset <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tales from RC">tales from RC <span class="quarto-category-count">(1)</span></div><div class="category" data-category="talmud">talmud <span class="quarto-category-count">(1)</span></div><div class="category" data-category="technology">technology <span class="quarto-category-count">(4)</span></div><div class="category" data-category="temples">temples <span class="quarto-category-count">(1)</span></div><div class="category" data-category="time">time <span class="quarto-category-count">(2)</span></div><div class="category" data-category="travel">travel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="unanswered">unanswered <span class="quarto-category-count">(1)</span></div><div class="category" data-category="unification">unification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="work">work <span class="quarto-category-count">(2)</span></div><div class="category" data-category="陶淵明">陶淵明 <span class="quarto-category-count">(1)</span></div></div></div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1706670681000" data-listing-reading-time-sort="0">
+<div class="thumbnail">
+<p><a href="./posts/20240107 Meet Old Friends.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20240107 Meet Old Friends.html">
+<h3 class="no-anchor listing-title">
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20240107 Meet Old Friends.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="sports,nation" data-listing-date-sort="1706857200000" data-listing-file-modified-sort="1707665184670" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./posts/20240202 Korea AFC/index.html"> <img src="./posts/20240202 Korea AFC/m1.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20240202 Korea AFC/index.html">
+<h3 class="no-anchor listing-title">
+Korea National Team
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('sports'); return false;">
+sports
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('nation'); return false;">
+nation
+</div>
+</div>
+<a href="./posts/20240202 Korea AFC/index.html">
+<div class="listing-description">
+Dad enjoyed and followed sports, especially if it was an international match involving the Korean National Football Team.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20240202 Korea AFC/index.html">
+<div class="listing-date">
+Feb 2, 2024
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="unanswered" data-listing-date-sort="1705820400000" data-listing-file-modified-sort="1707023702129" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/20240121 Meaning of All Things/index.html"> <img src="./posts/20240121 Meaning of All Things/main.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20240121 Meaning of All Things/index.html">
+<h3 class="no-anchor listing-title">
+A Neighborhood Conference
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('unanswered'); return false;">
+unanswered
+</div>
+</div>
+<a href="./posts/20240121 Meaning of All Things/index.html">
+<div class="listing-description">
+Attend a conference.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20240121 Meaning of All Things/index.html">
+<div class="listing-date">
+Jan 21, 2024
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="future" data-listing-date-sort="1703746800000" data-listing-file-modified-sort="1704163666922" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./posts/20231228 Fear Future/index.html"> <img src="./posts/20231228 Fear Future/main.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20231228 Fear Future/index.html">
+<h3 class="no-anchor listing-title">
+Fear No More - 對話 8
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('future'); return false;">
+future
+</div>
+</div>
+<a href="./posts/20231228 Fear Future/index.html">
+<div class="listing-description">
+손자/孫子
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20231228 Fear Future/index.html">
+<div class="listing-date">
+Dec 28, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="Christmas" data-listing-date-sort="1702969200000" data-listing-file-modified-sort="1703348765098" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/20231219 Memories of MD Christmas/index.html"> <img src="./posts/20231219 Memories of MD Christmas/intro.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20231219 Memories of MD Christmas/index.html">
+<h3 class="no-anchor listing-title">
+Maryland Christmas Memories
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Christmas'); return false;">
+Christmas
+</div>
+</div>
+<a href="./posts/20231219 Memories of MD Christmas/index.html">
+<div class="listing-description">
+Spent 9 years living in a suburban Washington DC area, Maryland.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20231219 Memories of MD Christmas/index.html">
+<div class="listing-date">
+Dec 19, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="sayings" data-listing-date-sort="1702364400000" data-listing-file-modified-sort="1703041079459" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./posts/20231212 Sayings of My Parents/index.html"> <img src="./posts/20231212 Sayings of My Parents/intro.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20231212 Sayings of My Parents/index.html">
+<h3 class="no-anchor listing-title">
+Sayings of My Parents
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('sayings'); return false;">
+sayings
+</div>
+</div>
+<a href="./posts/20231212 Sayings of My Parents/index.html">
+<div class="listing-description">
+My parents’ favorite Old Korean Proverb was,
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20231212 Sayings of My Parents/index.html">
+<div class="listing-date">
+Dec 12, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="hometown,remembrance" data-listing-date-sort="1702191600000" data-listing-file-modified-sort="1702430565733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./posts/20231210 Family Conference/index.html"> <img src="./posts/20231210 Family Conference/intro.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20231210 Family Conference/index.html">
+<h3 class="no-anchor listing-title">
+Personal Family Conferences
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('hometown'); return false;">
+hometown
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('remembrance'); return false;">
+remembrance
+</div>
+</div>
+<a href="./posts/20231210 Family Conference/index.html">
+<div class="listing-description">
+This weekend our neighborhood celebrated the lives of two individuals that spent their last and perhaps their best years of their lives with their family and friends.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20231210 Family Conference/index.html">
+<div class="listing-date">
+Dec 10, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="future,dialogue" data-listing-date-sort="1702018800000" data-listing-file-modified-sort="1702047228366" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/20231208 Musk We Trust/index.html"> <img src="./posts/20231208 Musk We Trust/intro.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20231208 Musk We Trust/index.html">
+<h3 class="no-anchor listing-title">
+A future dialogue with a grandson, Episode 3
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('future'); return false;">
+future
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dialogue'); return false;">
+dialogue
+</div>
+</div>
+<a href="./posts/20231208 Musk We Trust/index.html">
+<div class="listing-description">
+손자/孫子:<br>
+Grandpa, why are old people so predictable?
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20231208 Musk We Trust/index.html">
+<div class="listing-date">
+Dec 8, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="nature,temples" data-listing-date-sort="1701846000000" data-listing-file-modified-sort="1702009290118" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/20231206 Official Calendar Turner/index.html"> <img src="./posts/20231206 Official Calendar Turner/intro.JPG" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20231206 Official Calendar Turner/index.html">
+<h3 class="no-anchor listing-title">
+Official Time Keepers
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('nature'); return false;">
+nature
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('temples'); return false;">
+temples
+</div>
+</div>
+<a href="./posts/20231206 Official Calendar Turner/index.html">
+<div class="listing-description">
+One of the advantages of working for a Japanese company affiliate is tasting the sweets that people bring following a business trip.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20231206 Official Calendar Turner/index.html">
+<div class="listing-date">
+Dec 6, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="technology,memories" data-listing-date-sort="1701673200000" data-listing-file-modified-sort="1701745070812" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./posts/20231204 Why Blog/index.html"> <img src="./posts/20231204 Why Blog/main1.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20231204 Why Blog/index.html">
+<h3 class="no-anchor listing-title">
+Recollections and Memories : Why Blog?
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('technology'); return false;">
+technology
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('memories'); return false;">
+memories
+</div>
+</div>
+<a href="./posts/20231204 Why Blog/index.html">
+<div class="listing-description">
+Shared a video clip with a former colleague.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20231204 Why Blog/index.html">
+<div class="listing-date">
+Dec 4, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="gathering,celebration" data-listing-date-sort="1701500400000" data-listing-file-modified-sort="1701553236042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="thumbnail">
+<p><a href="./posts/20231202 Family Gathering/index.html"> <img src="./posts/20231202 Family Gathering/intro.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20231202 Family Gathering/index.html">
+<h3 class="no-anchor listing-title">
+A Family Gathering
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('gathering'); return false;">
+gathering
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('celebration'); return false;">
+celebration
+</div>
+</div>
+<a href="./posts/20231202 Family Gathering/index.html">
+<div class="listing-description">
+Celebrated the first holiday, a wedding and a 돌잔치 (First Birthday Celebration) -- without my parents generation.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20231202 Family Gathering/index.html">
+<div class="listing-date">
+Dec 2, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="memories,technology" data-listing-date-sort="1700290800000" data-listing-file-modified-sort="1701662486936" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="thumbnail">
+<p><a href="./posts/20231118 Where Clouds Gather/index.html"> <img src="./posts/20231118 Where Clouds Gather/intro.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20231118 Where Clouds Gather/index.html">
+<h3 class="no-anchor listing-title">
+Where Clouds Gather
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('memories'); return false;">
+memories
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('technology'); return false;">
+technology
+</div>
+</div>
+<a href="./posts/20231118 Where Clouds Gather/index.html">
+<div class="listing-description">
+At the beginning of marriage years, my cousin in Korea bought me a packet of 5 cassettes containing Korean Lyric Songs.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20231118 Where Clouds Gather/index.html">
+<div class="listing-date">
+Nov 18, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="service,healing" data-listing-date-sort="1695189600000" data-listing-file-modified-sort="1701557209306" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./posts/20230920 Assisted Living/index.html"> <img src="./posts/20230920 Assisted Living/intro.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230920 Assisted Living/index.html">
+<h3 class="no-anchor listing-title">
+Assisted Living
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('service'); return false;">
+service
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('healing'); return false;">
+healing
+</div>
+</div>
+<a href="./posts/20230920 Assisted Living/index.html">
+<div class="listing-description">
+Thought Nurse Beth had just reported to work.<br>
+Turns out she was finishing up her 12-hour shift and was headed home.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230920 Assisted Living/index.html">
+<div class="listing-date">
+Sep 20, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-categories="memories,technology" data-listing-date-sort="1694844000000" data-listing-file-modified-sort="1695500567711" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/20230916 15 Year Memory/index.html"> <img src="./posts/20230916 15 Year Memory/intro.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230916 15 Year Memory/index.html">
+<h3 class="no-anchor listing-title">
+15 Years of Memory
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('memories'); return false;">
+memories
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('technology'); return false;">
+technology
+</div>
+</div>
+<a href="./posts/20230916 15 Year Memory/index.html">
+<div class="listing-description">
+Went through 65 video tapes<sup>1</sup>, containing family or home recordings.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230916 15 Year Memory/index.html">
+<div class="listing-date">
+Sep 16, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-categories="remembrace,hope" data-listing-date-sort="1693461600000" data-listing-file-modified-sort="1693669057341" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/20230831 Forgotten Dreams/index.html"> <img src="./posts/20230831 Forgotten Dreams/intro.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230831 Forgotten Dreams/index.html">
+<h3 class="no-anchor listing-title">
+Forgotten Season and Dream
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('remembrace'); return false;">
+remembrace
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('hope'); return false;">
+hope
+</div>
+</div>
+<a href="./posts/20230831 Forgotten Dreams/index.html">
+<div class="listing-description">
+There is a song, all adults in Korea over 50, can sing from memory.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230831 Forgotten Dreams/index.html">
+<div class="listing-date">
+Aug 31, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="remembrance,resolve" data-listing-date-sort="1690437600000" data-listing-file-modified-sort="1690555190722" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./posts/20230727 Korean War Remembrance/index.html"> <img src="./posts/20230727 Korean War Remembrance/intro.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230727 Korean War Remembrance/index.html">
+<h3 class="no-anchor listing-title">
+Korean War : 1950 - 1953
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('remembrance'); return false;">
+remembrance
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('resolve'); return false;">
+resolve
+</div>
+</div>
+<a href="./posts/20230727 Korean War Remembrance/index.html">
+<div class="listing-description">
+Remembrance of past events is beneficial – even without a personal witness and its clarification and interpretation.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230727 Korean War Remembrance/index.html">
+<div class="listing-date">
+Jul 27, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="16" data-categories="kindess,church" data-listing-date-sort="1688536800000" data-listing-file-modified-sort="1703302649494" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./posts/20230705 New Carrollton/index.html"> <img src="./posts/20230705 New Carrollton/intro.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230705 New Carrollton/index.html">
+<h3 class="no-anchor listing-title">
+Maryland Carrollton Ward
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('kindess'); return false;">
+kindess
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('church'); return false;">
+church
+</div>
+</div>
+<a href="./posts/20230705 New Carrollton/index.html">
+<div class="listing-description">
+The year was 1969, my dad and his friends were wrapping up their employment with RMK-BRJ consortium in Vietnam.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230705 New Carrollton/index.html">
+<div class="listing-date">
+Jul 5, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="17" data-categories="opportunities,goodness of fit" data-listing-date-sort="1688450400000" data-listing-file-modified-sort="1688479916131" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/20230704 Seek Opportunity/index.html"> <img src="./posts/20230704 Seek Opportunity/intro.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230704 Seek Opportunity/index.html">
+<h3 class="no-anchor listing-title">
+Opportunitites Will Come
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('opportunities'); return false;">
+opportunities
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('goodness of fit'); return false;">
+goodness of fit
+</div>
+</div>
+<a href="./posts/20230704 Seek Opportunity/index.html">
+<div class="listing-description">
+Don’t go looking for opportunities, they will come looking for you
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230704 Seek Opportunity/index.html">
+<div class="listing-date">
+Jul 4, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="18" data-categories="tales from RC,renewal" data-listing-date-sort="1688191200000" data-listing-file-modified-sort="1688214652014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/20230701 Canyons/index.html"> <img src="./posts/20230701 Canyons/intro.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230701 Canyons/index.html">
+<h3 class="no-anchor listing-title">
+Canyons : Near and Far
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('tales from RC'); return false;">
+tales from RC
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('renewal'); return false;">
+renewal
+</div>
+</div>
+<a href="./posts/20230701 Canyons/index.html">
+<div class="listing-description">
+I live close to a location with both a nondescript and a pedestrian name.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230701 Canyons/index.html">
+<div class="listing-date">
+Jul 1, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="19" data-categories="appreciation,remebrance" data-listing-date-sort="1687586400000" data-listing-file-modified-sort="1687640489610" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./posts/20230624 Fathers Day 2023/index.html"> <img src="./posts/20230624 Fathers Day 2023/intro.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230624 Fathers Day 2023/index.html">
+<h3 class="no-anchor listing-title">
+Father’s Day 2023
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('appreciation'); return false;">
+appreciation
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('remebrance'); return false;">
+remebrance
+</div>
+</div>
+<a href="./posts/20230624 Fathers Day 2023/index.html">
+<div class="listing-description">
+There are times, during the summer, when holidays seem to run together.<br>
+Each year the meaning and purpose for the celebration seem less clear.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230624 Fathers Day 2023/index.html">
+<div class="listing-date">
+Jun 24, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="20" data-categories="opportunities,friendships" data-listing-date-sort="1686808800000" data-listing-file-modified-sort="1689457021788" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="thumbnail">
+<p><a href="./posts/20230615 opportunities pt2/index.html"> <img src="./posts/20230615 opportunities pt2/intro.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230615 opportunities pt2/index.html">
+<h3 class="no-anchor listing-title">
+Anti Social Beginning
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('opportunities'); return false;">
+opportunities
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('friendships'); return false;">
+friendships
+</div>
+</div>
+<a href="./posts/20230615 opportunities pt2/index.html">
+<div class="listing-description">
+We wanted a Japanese person for the role<br>
+We would have accepted an American project leader<br>
+But a Korean person that doesn’t drink!?!
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230615 opportunities pt2/index.html">
+<div class="listing-date">
+Jun 15, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="21" data-categories="technology,rememberance" data-listing-date-sort="1686031200000" data-listing-file-modified-sort="1687034023801" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="thumbnail">
+<p><a href="./posts/20230606 Analog Recordings/index.html"> <img src="./posts/20230606 Analog Recordings/intro.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230606 Analog Recordings/index.html">
+<h3 class="no-anchor listing-title">
+Recordings that Reflects : Analog
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('technology'); return false;">
+technology
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('rememberance'); return false;">
+rememberance
+</div>
+</div>
+<a href="./posts/20230606 Analog Recordings/index.html">
+<div class="listing-description">
+One of the benefits of aging is the reserve of memory or remembrance.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230606 Analog Recordings/index.html">
+<div class="listing-date">
+Jun 6, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="22" data-categories="longing,unification,dreams" data-listing-date-sort="1685426400000" data-listing-file-modified-sort="1685448914183" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="thumbnail">
+<p><a href="./posts/20230530 Reunite/index.html"> <img src="./posts/20230530 Reunite/intro.JPG" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230530 Reunite/index.html">
+<h3 class="no-anchor listing-title">
+A United Nation under God
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('longing'); return false;">
+longing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('unification'); return false;">
+unification
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dreams'); return false;">
+dreams
+</div>
+</div>
+<a href="./posts/20230530 Reunite/index.html">
+<div class="listing-description">
+My…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230530 Reunite/index.html">
+<div class="listing-date">
+May 30, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="23" data-categories="seeking,dreams" data-listing-date-sort="1685340000000" data-listing-file-modified-sort="1685364507224" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/20230529 A Refugee/index.html"> <img src="./posts/20230529 A Refugee/orem_temple.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230529 A Refugee/index.html">
+<h3 class="no-anchor listing-title">
+Live Like a Refugee
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('seeking'); return false;">
+seeking
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dreams'); return false;">
+dreams
+</div>
+</div>
+<a href="./posts/20230529 A Refugee/index.html">
+<div class="listing-description">
+During my high school years Tom Petty and the Heartbreakers had a hit song called <code>Refugee</code>.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230529 A Refugee/index.html">
+<div class="listing-date">
+May 29, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="24" data-categories="ancestors,dreams" data-listing-date-sort="1685253600000" data-listing-file-modified-sort="1685331456890" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/20230528 Memorial Day/index.html"> <img src="./posts/20230528 Memorial Day/intro.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230528 Memorial Day/index.html">
+<h3 class="no-anchor listing-title">
+Gathered to his Fathers
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ancestors'); return false;">
+ancestors
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dreams'); return false;">
+dreams
+</div>
+</div>
+<a href="./posts/20230528 Memorial Day/index.html">
+<div class="listing-description">
+Like many immigrants before him, he was not gathered to his fathers physically, when he passed away 3 years ago.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230528 Memorial Day/index.html">
+<div class="listing-date">
+May 28, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="25" data-categories="travel,dreams" data-listing-date-sort="1684735200000" data-listing-file-modified-sort="1684775371394" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./posts/20230522 passport travel/index.html"> <img data-src="./posts/20230522 passport travel/flower_canyon.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230522 passport travel/index.html">
+<h3 class="no-anchor listing-title">
+Decades of Travels
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('travel'); return false;">
+travel
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dreams'); return false;">
+dreams
+</div>
+</div>
+<a href="./posts/20230522 passport travel/index.html">
+<div class="listing-description">
+Received a new passport, issued by the United States Department of State.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230522 passport travel/index.html">
+<div class="listing-date">
+May 22, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="26" data-categories="future,dreams" data-listing-date-sort="1684648800000" data-listing-file-modified-sort="1684687209242" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/20230521 marriott commencement/index.html"> <img data-src="./posts/20230521 marriott commencement/mountain.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230521 marriott commencement/index.html">
+<h3 class="no-anchor listing-title">
+Marriott Commencement
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('future'); return false;">
+future
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dreams'); return false;">
+dreams
+</div>
+</div>
+<a href="./posts/20230521 marriott commencement/index.html">
+<div class="listing-description">
+Attending an 2-hour commencement ceremony, one can get through much reflections about the past and the future.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230521 marriott commencement/index.html">
+<div class="listing-date">
+May 21, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="27" data-categories="friendship" data-listing-date-sort="1682488800000" data-listing-file-modified-sort="1682545327003" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/20230426 30 year friendship/index.html"> <img data-src="./posts/20230426 30 year friendship/view.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230426 30 year friendship/index.html">
+<h3 class="no-anchor listing-title">
+School Friend
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('friendship'); return false;">
+friendship
+</div>
+</div>
+<a href="./posts/20230426 30 year friendship/index.html">
+<div class="listing-description">
+A friend lives in a town, 20 miles away. Situated nearly the height of Willis (Sears) Tower, above the valley.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230426 30 year friendship/index.html">
+<div class="listing-date">
+Apr 26, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="28" data-categories="gatherings,memories" data-listing-date-sort="1680674400000" data-listing-file-modified-sort="1680795226369" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/20230402 Korean Fireside/index.html"> <img data-src="./posts/20230402 Korean Fireside/20230327_194753-01.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230402 Korean Fireside/index.html">
+<h3 class="no-anchor listing-title">
+Father’s Voice
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('gatherings'); return false;">
+gatherings
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('memories'); return false;">
+memories
+</div>
+</div>
+<a href="./posts/20230402 Korean Fireside/index.html">
+<div class="listing-description">
+Met the parents of my mission companion.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230402 Korean Fireside/index.html">
+<div class="listing-date">
+Apr 5, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="29" data-categories="gratitude,decisions" data-listing-date-sort="1679551200000" data-listing-file-modified-sort="1679888318702" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/20230223 gift from above/index.html"> <img data-src="./posts/20230223 gift from above/IMAG0997.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230223 gift from above/index.html">
+<h3 class="no-anchor listing-title">
+Gift from Above
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('gratitude'); return false;">
+gratitude
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('decisions'); return false;">
+decisions
+</div>
+</div>
+<a href="./posts/20230223 gift from above/index.html">
+<div class="listing-description">
+Received another round of gift from above – moisture – in the form of mixed precipitation or sleet.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230223 gift from above/index.html">
+<div class="listing-date">
+Mar 23, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="30" data-categories="family,recollection" data-listing-date-sort="1676790000000" data-listing-file-modified-sort="1676863369495" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/20230219 mom history/index.html"> <img data-src="./posts/20230219 mom history/20230217_180419-01.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230219 mom history/index.html">
+<h3 class="no-anchor listing-title">
+Mom’s Early Days : In her own words
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('family'); return false;">
+family
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('recollection'); return false;">
+recollection
+</div>
+</div>
+<a href="./posts/20230219 mom history/index.html">
+<div class="listing-description">
+우리 엄마 사정을 본 이모는 한 명을 데려가서 공부를 시키겠다고 했다.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230219 mom history/index.html">
+<div class="listing-date">
+Feb 19, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="31" data-categories="family,recollections" data-listing-date-sort="1676185200000" data-listing-file-modified-sort="1676861589810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/20230212 happy birthday/index.html"> <img data-src="./posts/20230212 happy birthday/20221206_085703.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230212 happy birthday/index.html">
+<h3 class="no-anchor listing-title">
+Birthday Remembrance
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('family'); return false;">
+family
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('recollections'); return false;">
+recollections
+</div>
+</div>
+<a href="./posts/20230212 happy birthday/index.html">
+<div class="listing-description">
+Want to thank my parents for taking away the fear and stigma associated with getting old and facing death.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230212 happy birthday/index.html">
+<div class="listing-date">
+Feb 12, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="32" data-categories="faith,resurrection" data-listing-date-sort="1674802800000" data-listing-file-modified-sort="1675984729215" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./posts/20230127 resurrection/index.html"> <img data-src="./posts/20230127 resurrection/Thursday_Sunset.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230127 resurrection/index.html">
+<h3 class="no-anchor listing-title">
+Thou Shalt Rise! My Dust, Thou Shalt Arise
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('faith'); return false;">
+faith
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('resurrection'); return false;">
+resurrection
+</div>
+</div>
+<a href="./posts/20230127 resurrection/index.html">
+<div class="listing-description">
+26 그리고 나 야곱은 내가 반드시 곧 나의 무덤으로 내려갈 것임을 알아, 나의…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230127 resurrection/index.html">
+<div class="listing-date">
+Jan 27, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="33" data-categories="family,records" data-listing-date-sort="1674716400000" data-listing-file-modified-sort="1675961398931" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/20230126 kang family records/index.html"> <img data-src="./posts/20230126 kang family records/20221221_171422-01.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230126 kang family records/index.html">
+<h3 class="no-anchor listing-title">
+records of thy fathers
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('family'); return false;">
+family
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('records'); return false;">
+records
+</div>
+</div>
+<a href="./posts/20230126 kang family records/index.html">
+<div class="listing-description">
+“That search may be made in the book of the records of thy fathers:…”
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230126 kang family records/index.html">
+<div class="listing-date">
+Jan 26, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="34" data-categories="family,recollections,independence" data-listing-date-sort="1674630000000" data-listing-file-modified-sort="1675880697852" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/20230125 7 steps up/index.html"> <img data-src="./posts/20230125 7 steps up/IMG_7719 (1).JPG" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230125 7 steps up/index.html">
+<h3 class="no-anchor listing-title">
+7 Steps Up - 14 Steps Down
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('family'); return false;">
+family
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('recollections'); return false;">
+recollections
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('independence'); return false;">
+independence
+</div>
+</div>
+<a href="./posts/20230125 7 steps up/index.html">
+<div class="listing-description">
+For the last 12 years of her life, my mother lived in a white brickhouse.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230125 7 steps up/index.html">
+<div class="listing-date">
+Jan 25, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="35" data-categories="family,records" data-listing-date-sort="1674543600000" data-listing-file-modified-sort="1675888724234" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/20230124 dad messages/index.html"> <img data-src="./posts/20230124 dad messages/20230201_172340-01.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230124 dad messages/index.html">
+<h3 class="no-anchor listing-title">
+father’s messages
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('family'); return false;">
+family
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('records'); return false;">
+records
+</div>
+</div>
+<a href="./posts/20230124 dad messages/index.html">
+<div class="listing-description">
+My father didn’t express his feelings much. Like most men from his generation, less words the better.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230124 dad messages/index.html">
+<div class="listing-date">
+Jan 24, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="36" data-categories="gratitude,nostalgia" data-listing-date-sort="1674457200000" data-listing-file-modified-sort="1674839686521" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/20230123 We are All Alone/index.html"> <img data-src="./posts/20230123 We are All Alone/IMG_0597-EFFECTS_Original (2).jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230123 We are All Alone/index.html">
+<h3 class="no-anchor listing-title">
+We are all Alone
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('gratitude'); return false;">
+gratitude
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('nostalgia'); return false;">
+nostalgia
+</div>
+</div>
+<a href="./posts/20230123 We are All Alone/index.html">
+<div class="listing-description">
+<em>"When you’re happy, you enjoy the music but when you’re sad, you understand the lyrics"</em>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230123 We are All Alone/index.html">
+<div class="listing-date">
+Jan 23, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="37" data-categories="family,recollections" data-listing-date-sort="1674370800000" data-listing-file-modified-sort="1674751268107" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/20230121 Discrepancies/index.html"> <img data-src="./posts/20230121 Discrepancies/514691694.610559.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230121 Discrepancies/index.html">
+<h3 class="no-anchor listing-title">
+Life’s Discrepancies
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('family'); return false;">
+family
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('recollections'); return false;">
+recollections
+</div>
+</div>
+<a href="./posts/20230121 Discrepancies/index.html">
+<div class="listing-description">
+On official records, my mother’s birthday is listed as <code>20 February 1935</code>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230121 Discrepancies/index.html">
+<div class="listing-date">
+Jan 22, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="38" data-categories="family,recollections" data-listing-date-sort="1674284400000" data-listing-file-modified-sort="1674846632600" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="thumbnail">
+<p><a href="./posts/20230122 Oral Traditions/index.html"> <img data-src="./posts/20230122 Oral Traditions/20230107_152010-01.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230122 Oral Traditions/index.html">
+<h3 class="no-anchor listing-title">
+Remembrance of My Parents
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('family'); return false;">
+family
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('recollections'); return false;">
+recollections
+</div>
+</div>
+<a href="./posts/20230122 Oral Traditions/index.html">
+<div class="listing-description">
+Communication between two parties can yield varying results.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230122 Oral Traditions/index.html">
+<div class="listing-date">
+Jan 21, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="39" data-categories="mother,faith" data-listing-date-sort="1674198000000" data-listing-file-modified-sort="1674194904128" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/20230120 faith of mom/index.html"> <img data-src="./posts/20230120 faith of mom/20230101_083104.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230120 faith of mom/index.html">
+<h3 class="no-anchor listing-title">
+Faith of My Mother
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('mother'); return false;">
+mother
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('faith'); return false;">
+faith
+</div>
+</div>
+<a href="./posts/20230120 faith of mom/index.html">
+<div class="listing-description">
+From Wikipedia
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230120 faith of mom/index.html">
+<div class="listing-date">
+Jan 20, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="40" data-categories="remembrance,music" data-listing-date-sort="1674111600000" data-listing-file-modified-sort="1674225188271" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/20230119 trot spotify/index.html"> <img data-src="./posts/20230119 trot spotify/IMG_1671.JPG" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230119 trot spotify/index.html">
+<h3 class="no-anchor listing-title">
+Songs of My Parents
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('remembrance'); return false;">
+remembrance
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('music'); return false;">
+music
+</div>
+</div>
+<a href="./posts/20230119 trot spotify/index.html">
+<div class="listing-description">
+Recently gave up my access to Spotify Premium
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230119 trot spotify/index.html">
+<div class="listing-date">
+Jan 19, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="41" data-categories="remembrance,alone" data-listing-date-sort="1674025200000" data-listing-file-modified-sort="1674092981450" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/20230118 abide with me/index.html"> <img data-src="./posts/20230118 abide with me/20230118_172057-01.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230118 abide with me/index.html">
+<h3 class="no-anchor listing-title">
+Abide with Me
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('remembrance'); return false;">
+remembrance
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('alone'); return false;">
+alone
+</div>
+</div>
+<a href="./posts/20230118 abide with me/index.html">
+<div class="listing-description">
+Swift to its close ebbs out life’s little day.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230118 abide with me/index.html">
+<div class="listing-date">
+Jan 18, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="42" data-categories="dad,work" data-listing-date-sort="1673852400000" data-listing-file-modified-sort="1675111595534" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/20230116 da nang days/index.html"> <img data-src="./posts/20230116 da nang days/danang_cover.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230116 da nang days/index.html">
+<h3 class="no-anchor listing-title">
+Đà Nẵng Years
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('dad'); return false;">
+dad
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('work'); return false;">
+work
+</div>
+</div>
+<a href="./posts/20230116 da nang days/index.html">
+<div class="listing-description">
+From April of 1966 to January of 1970 my father worked in Đà Nẵng, Vietnam.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230116 da nang days/index.html">
+<div class="listing-date">
+Jan 16, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="43" data-categories="family,recollections" data-listing-date-sort="1673766000000" data-listing-file-modified-sort="1674593382273" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/20230115 old folks/index.html"> <img data-src="./posts/20230115 old folks/20230111_171308-01.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230115 old folks/index.html">
+<h3 class="no-anchor listing-title">
+Old Memories : A Family Recollection
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('family'); return false;">
+family
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('recollections'); return false;">
+recollections
+</div>
+</div>
+<a href="./posts/20230115 old folks/index.html">
+<div class="listing-description">
+A visit with old persons leaves one with,
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230115 old folks/index.html">
+<div class="listing-date">
+Jan 15, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="44" data-categories="divided,future" data-listing-date-sort="1673679600000" data-listing-file-modified-sort="1674008289822" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/20230114 Displaced Person/index.html"> <img data-src="./posts/20230114 Displaced Person/Epson_08152020104334 Copy Copy.JPG" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230114 Displaced Person/index.html">
+<h3 class="no-anchor listing-title">
+Wanderer
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('divided'); return false;">
+divided
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('future'); return false;">
+future
+</div>
+</div>
+<a href="./posts/20230114 Displaced Person/index.html">
+<div class="listing-description">
+I learned a new phrase.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230114 Displaced Person/index.html">
+<div class="listing-date">
+Jan 14, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="45" data-categories="gratitude,parent,work" data-listing-date-sort="1673506800000" data-listing-file-modified-sort="1673548606259" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/20230110 thank you dad/index.html"> <img data-src="./posts/20230110 thank you dad/IMG_3944.JPG" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230110 thank you dad/index.html">
+<h3 class="no-anchor listing-title">
+A Given Vocation in Life
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('gratitude'); return false;">
+gratitude
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('parent'); return false;">
+parent
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('work'); return false;">
+work
+</div>
+</div>
+<a href="./posts/20230110 thank you dad/index.html">
+<div class="listing-description">
+I felt a renewed appreciation and love for my father one morning.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230110 thank you dad/index.html">
+<div class="listing-date">
+Jan 12, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="46" data-categories="divided,future" data-listing-date-sort="1673420400000" data-listing-file-modified-sort="1673640729716" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./posts/20230112 38th Parallel Pt 2/index.html"> <img data-src="./posts/20230112 38th Parallel Pt 2/IMG_3143.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230112 38th Parallel Pt 2/index.html">
+<h3 class="no-anchor listing-title">
+가거라 三八線 Part 2
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('divided'); return false;">
+divided
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('future'); return false;">
+future
+</div>
+</div>
+<a href="./posts/20230112 38th Parallel Pt 2/index.html">
+<div class="listing-description">
+Encyclopedia of Korean Culture<sup>1</sup> defines hometown or 고향(故鄕) as
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230112 38th Parallel Pt 2/index.html">
+<div class="listing-date">
+Jan 11, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="47" data-categories="compassion,guidance" data-listing-date-sort="1673247600000" data-listing-file-modified-sort="1673542549807" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/20230109 rock canyon deers/index.html"> <img data-src="./posts/20230109 rock canyon deers/20221112_171117-01.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230109 rock canyon deers/index.html">
+<h3 class="no-anchor listing-title">
+Deers of Rock Canyon
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('compassion'); return false;">
+compassion
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('guidance'); return false;">
+guidance
+</div>
+</div>
+<a href="./posts/20230109 rock canyon deers/index.html">
+<div class="listing-description">
+At first significant snowstorm, each fall, my dad would look towards Timpanogos and ask,
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230109 rock canyon deers/index.html">
+<div class="listing-date">
+Jan 9, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="48" data-categories="gratitude,parents,korean war" data-listing-date-sort="1672902000000" data-listing-file-modified-sort="1672944964342" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="thumbnail">
+<p><a href="./posts/20230105 My Family Escape/index.html"> <img data-src="./posts/20230105 My Family Escape/IMG_2154 (1).JPG" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230105 My Family Escape/index.html">
+<h3 class="no-anchor listing-title">
+Lord Delivers
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('gratitude'); return false;">
+gratitude
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('parents'); return false;">
+parents
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('korean war'); return false;">
+korean war
+</div>
+</div>
+<a href="./posts/20230105 My Family Escape/index.html">
+<div class="listing-description">
+<code>Talk given at Seneca Stake, Spring 2022</code>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230105 My Family Escape/index.html">
+<div class="listing-date">
+Jan 5, 2023
+</div>
+<div class="listing-author">
+Young Irvine
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="49" data-categories="divided,future" data-listing-date-sort="1672729200000" data-listing-file-modified-sort="1672944667043" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/20230103 38th Parallel/index.html"> <img data-src="./posts/20230103 38th Parallel/Epson_12112022170630-01.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230103 38th Parallel/index.html">
+<h3 class="no-anchor listing-title">
+가거라三八線
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('divided'); return false;">
+divided
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('future'); return false;">
+future
+</div>
+</div>
+<a href="./posts/20230103 38th Parallel/index.html">
+<div class="listing-description">
+The number 38 is significant to all Koreans.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230103 38th Parallel/index.html">
+<div class="listing-date">
+Jan 3, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="50" data-categories="lessons,snow" data-listing-date-sort="1672642800000" data-listing-file-modified-sort="1672762909189" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/20230102 Tuesday Aftrernoon/index.html"> <img data-src="./posts/20230102 Tuesday Aftrernoon/20230102_133107-03.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230102 Tuesday Aftrernoon/index.html">
+<h3 class="no-anchor listing-title">
+새해 다음 월요일
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('lessons'); return false;">
+lessons
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('snow'); return false;">
+snow
+</div>
+</div>
+<a href="./posts/20230102 Tuesday Aftrernoon/index.html">
+<div class="listing-description">
+Been going through dad’s study area.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230102 Tuesday Aftrernoon/index.html">
+<div class="listing-date">
+Jan 2, 2023
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="51" data-categories="memory,time" data-listing-date-sort="1672210800000" data-listing-file-modified-sort="1672344117607" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/20221228 ma non troppo/index.html"> <img data-src="./posts/20221228 ma non troppo/20211227_075031_2-01.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20221228 ma non troppo/index.html">
+<h3 class="no-anchor listing-title">
+Adagio ma non troppo
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('memory'); return false;">
+memory
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('time'); return false;">
+time
+</div>
+</div>
+<a href="./posts/20221228 ma non troppo/index.html">
+<div class="listing-description">
+Life is kind, it washes away and lets us forget pains and troubles, little by little.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20221228 ma non troppo/index.html">
+<div class="listing-date">
+Dec 28, 2022
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="52" data-categories="memory,time" data-listing-date-sort="1672210800000" data-listing-file-modified-sort="1672344117607" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/20230614 June Writings/index.html"> <img data-src="./posts/20230614 June Writings/20211227_075031_2-01.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20230614 June Writings/index.html">
+<h3 class="no-anchor listing-title">
+Adagio ma non troppo
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('memory'); return false;">
+memory
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('time'); return false;">
+time
+</div>
+</div>
+<a href="./posts/20230614 June Writings/index.html">
+<div class="listing-description">
+Life is kind, it washes away and lets us forget pains and troubles, little by little.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20230614 June Writings/index.html">
+<div class="listing-date">
+Dec 28, 2022
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="53" data-categories="gratitude,nostalgia" data-listing-date-sort="1672038000000" data-listing-file-modified-sort="1672343327144" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/20221226 snowstorm/index.html"> <img data-src="./posts/20221226 snowstorm/20221213_182457-01.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20221226 snowstorm/index.html">
+<h3 class="no-anchor listing-title">
+Holiday Snowstorms
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('gratitude'); return false;">
+gratitude
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('nostalgia'); return false;">
+nostalgia
+</div>
+</div>
+<a href="./posts/20221226 snowstorm/index.html">
+<div class="listing-description">
+Snowstorms before Christmas brings memories of years past, as a student — and a father.<br>
+June and I had 2 children before graduating from school.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/20221226 snowstorm/index.html">
+<div class="listing-date">
+Dec 26, 2022
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="54" data-categories="gratitude,marriage" data-listing-date-sort="1671692400000" data-listing-file-modified-sort="1671737907000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="thumbnail">
+<p><a href="./posts/carol rawlins 2/index.html"> <img data-src="./posts/carol rawlins 2/IMG_2371.JPG" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/carol rawlins 2/index.html">
+<h3 class="no-anchor listing-title">
+My Seminary Teacher : Remembered
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('gratitude'); return false;">
+gratitude
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('marriage'); return false;">
+marriage
+</div>
+</div>
+<a href="./posts/carol rawlins 2/index.html">
+<div class="listing-description">
+Three days from now we will celebrate the the most important birth in history some 2000 years ago to Mary and Joseph in Bethlehem.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/carol rawlins 2/index.html">
+<div class="listing-date">
+Dec 22, 2022
+</div>
+<div class="listing-author">
+Steve Rawlins
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="55" data-categories="neighbor,mercy" data-listing-date-sort="1669964400000" data-listing-file-modified-sort="1672347372778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/strangers/index.html"> <img data-src="./posts/strangers/IMG_6893-01.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/strangers/index.html">
+<h3 class="no-anchor listing-title">
+shewed mercy and was a neighbor to strangers
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('neighbor'); return false;">
+neighbor
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('mercy'); return false;">
+mercy
+</div>
+</div>
+<a href="./posts/strangers/index.html">
+<div class="listing-description">
+My mother will be coming home in a few days.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/strangers/index.html">
+<div class="listing-date">
+Dec 2, 2022
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="56" data-categories="sunset,陶淵明" data-listing-date-sort="1669705200000" data-listing-file-modified-sort="1671470661824" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/shadows/index.html"> <img data-src="./posts/shadows/sunset.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/shadows/index.html">
+<h3 class="no-anchor listing-title">
+景翳翳以將入
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('sunset'); return false;">
+sunset
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('陶淵明'); return false;">
+陶淵明
+</div>
+</div>
+<a href="./posts/shadows/index.html">
+<div class="listing-description">
+“Shadows darken as the sun prepares to set;
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/shadows/index.html">
+<div class="listing-date">
+Nov 29, 2022
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="57" data-categories="talmud" data-listing-date-sort="1669446000000" data-listing-file-modified-sort="1704041042284" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/doubt resolution/index.html"> <img data-src="./posts/doubt resolution/marunouchi.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/doubt resolution/index.html">
+<h3 class="no-anchor listing-title">
+Rabbi Manis Friedman
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('talmud'); return false;">
+talmud
+</div>
+</div>
+<a href="./posts/doubt resolution/index.html">
+<div class="listing-description">
+YouTube algorithm suggested Rabbi Manis Friedman.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/doubt resolution/index.html">
+<div class="listing-date">
+Nov 26, 2022
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="58" data-categories="korean war,gratitude" data-listing-date-sort="1669359600000" data-listing-file-modified-sort="1673389947133" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/that is why/index.html"> <img data-src="./posts/that is why/monuments.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/that is why/index.html">
+<h3 class="no-anchor listing-title">
+That is why we go
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('korean war'); return false;">
+korean war
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('gratitude'); return false;">
+gratitude
+</div>
+</div>
+<a href="./posts/that is why/index.html">
+<div class="listing-description">
+“Sir, I want to thank you and your fellow countrymen<br>
+for coming to the aid of my country so many years ago.<br>
+B…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/that is why/index.html">
+<div class="listing-date">
+Nov 25, 2022
+</div>
+<div class="listing-author">
+Mark A. Wilson
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="59" data-categories="love,nostalgia,indirect" data-listing-date-sort="1669186800000" data-listing-file-modified-sort="1671226092226" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/princess bride/index.html"> <img data-src="./posts/princess bride/20221019_084239 (1).jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/princess bride/index.html">
+<h3 class="no-anchor listing-title">
+as you wish
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('love'); return false;">
+love
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('nostalgia'); return false;">
+nostalgia
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('indirect'); return false;">
+indirect
+</div>
+</div>
+<a href="./posts/princess bride/index.html">
+<div class="listing-description">
+At times a popular movie alters and captures the mindset and imagination of a whole generation – and beyond.&nbsp;&nbsp;
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/princess bride/index.html">
+<div class="listing-date">
+Nov 23, 2022
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="60" data-categories="servant-leader,silence" data-listing-date-sort="1668495600000" data-listing-file-modified-sort="1671227882081" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/silence/index.html"> <img data-src="./posts/silence/20211228_085952 (1).jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/silence/index.html">
+<h3 class="no-anchor listing-title">
+Improve on Silence
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('servant-leader'); return false;">
+servant-leader
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('silence'); return false;">
+silence
+</div>
+</div>
+<a href="./posts/silence/index.html">
+<div class="listing-description">
+“In saying what I have in mind, will I really improve on the silence?”
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/silence/index.html">
+<div class="listing-date">
+Nov 15, 2022
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="61" data-categories="parents,heroes,lessons" data-listing-date-sort="1668236400000" data-listing-file-modified-sort="1671734140244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/superheroes/index.html"> <img data-src="./posts/superheroes/dad_uncle.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/superheroes/index.html">
+<h3 class="no-anchor listing-title">
+Superheroes
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('parents'); return false;">
+parents
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('heroes'); return false;">
+heroes
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('lessons'); return false;">
+lessons
+</div>
+</div>
+<a href="./posts/superheroes/index.html">
+<div class="listing-description">
+They are to live forever. They are always full of energy and hope. They are superheroes that we can always count on.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/superheroes/index.html">
+<div class="listing-date">
+Nov 12, 2022
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="62" data-categories="intro,parents" data-listing-date-sort="1667368800000" data-listing-file-modified-sort="1674682807013" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/welcome/index.html"> <p class="card-img-top"><img data-src="posts/welcome/mom_dad.jpeg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/welcome/index.html">
+<h3 class="no-anchor listing-title">
+Welcome To My Blog
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('intro'); return false;">
+intro
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('parents'); return false;">
+parents
+</div>
+</div>
+<a href="./posts/welcome/index.html">
+<div class="listing-description">
+To remember the faith, experience and wisdom of my parents.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/welcome/index.html">
+<div class="listing-date">
+Nov 2, 2022
+</div>
+<div class="listing-author">
+DK
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
