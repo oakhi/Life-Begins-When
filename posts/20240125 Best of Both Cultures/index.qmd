@@ -7,22 +7,24 @@ draft: yes
 image: "intro.jpeg"
 ---
 
-A dinner guest mentioned.
+A dinner guest said.
 
-> You have preserved the best traditions of two cultures
+> You have preserved the best traditions of both cultures
 
 He may have been practicing the common courtesy of thanking the host.
 
-Was he being a good guest
-Did he mean it.
-Or was he thinking I was neither Korean or American.
+Was he being a good guest or did he mean it.
+
+Was he thinking I was neither Korean or American.
+
 One who has lost his ways
 
-What are the good things of each culture
+What exactly are the good things of each culture
 
----
+------------------------------------------------------------------------
 
 At one time, had filed away characteristics of the American people
+
 During the move to and from Korea, I have misplaced it
 
 ## American Characteristics
@@ -31,23 +33,23 @@ According to Chat GPT, these are characteristics of the American people
 
 The term "American" can refer to various things, including people, culture, and values associated with the United States of America. Here are some characteristics often associated with Americans:
 
-1. **Diversity**: America is often referred to as a "melting pot" due to its diverse population comprising people from various ethnic, cultural, and religious backgrounds.
+1.  **Diversity**: America is often referred to as a "melting pot" due to its diverse population comprising people from various ethnic, cultural, and religious backgrounds.
 
-2. **Individualism**: Americans often value individual rights, freedoms, and independence. This is reflected in their emphasis on personal achievement and self-reliance.
+2.  **Individualism**: Americans often value individual rights, freedoms, and independence. This is reflected in their emphasis on personal achievement and self-reliance.
 
-3. **Entrepreneurial Spirit**: There is a strong culture of entrepreneurship in America, with many people starting their own businesses and pursuing innovative ideas.
+3.  **Entrepreneurial Spirit**: There is a strong culture of entrepreneurship in America, with many people starting their own businesses and pursuing innovative ideas.
 
-4. **Optimism**: Americans tend to have a can-do attitude and optimism about the future, often believing in the possibility of success and progress.
+4.  **Optimism**: Americans tend to have a can-do attitude and optimism about the future, often believing in the possibility of success and progress.
 
-5. **Patriotism**: Many Americans have a strong sense of national pride and patriotism, often expressed through symbols like the flag and national anthem.
+5.  **Patriotism**: Many Americans have a strong sense of national pride and patriotism, often expressed through symbols like the flag and national anthem.
 
-6. **Pragmatism**: Americans often value practicality and problem-solving, preferring solutions that work efficiently.
+6.  **Pragmatism**: Americans often value practicality and problem-solving, preferring solutions that work efficiently.
 
-7. **Openness to Change**: American society is known for its openness to new ideas, innovation, and social change.
+7.  **Openness to Change**: American society is known for its openness to new ideas, innovation, and social change.
 
-8. **Competitiveness**: There is a culture of competition in various aspects of American life, including business, education, and sports.
+8.  **Competitiveness**: There is a culture of competition in various aspects of American life, including business, education, and sports.
 
-9. **Informality**: Americans tend to be relatively informal in their interactions, addressing each other by first names and engaging in casual conversation even in professional settings.
+9.  **Informality**: Americans tend to be relatively informal in their interactions, addressing each other by first names and engaging in casual conversation even in professional settings.
 
 10. **Consumerism**: The American economy is driven by consumer spending, and materialism is often a significant aspect of American culture.
 
@@ -69,23 +71,23 @@ Koreans on the other hand are
 
 The characteristics of Koreans, referring to the people of South Korea or those of Korean descent, can encompass a range of cultural, social, and behavioral traits. Here are some commonly recognized characteristics associated with Koreans:
 
-1. **Strong Sense of Identity**: Koreans often have a strong sense of national and cultural identity, pride in their heritage, and a deep attachment to their country.
+1.  **Strong Sense of Identity**: Koreans often have a strong sense of national and cultural identity, pride in their heritage, and a deep attachment to their country.
 
-2. **Collectivism**: Korean society tends to emphasize group harmony and cohesion over individual interests. Family and community ties are often highly valued.
+2.  **Collectivism**: Korean society tends to emphasize group harmony and cohesion over individual interests. Family and community ties are often highly valued.
 
-3. **Respect for Elders and Authority**: Traditional Korean culture places a significant emphasis on respect for elders and authority figures, including parents, teachers, and government officials.
+3.  **Respect for Elders and Authority**: Traditional Korean culture places a significant emphasis on respect for elders and authority figures, including parents, teachers, and government officials.
 
-4. **Hardworking and Ambitious**: Koreans are often known for their strong work ethic and dedication to education and career advancement. There is a cultural emphasis on diligence and perseverance.
+4.  **Hardworking and Ambitious**: Koreans are often known for their strong work ethic and dedication to education and career advancement. There is a cultural emphasis on diligence and perseverance.
 
-5. **Focus on Education**: Education is highly valued in Korean culture, and there is considerable pressure on students to excel academically. Parents often prioritize their children's education and invest heavily in private tutoring and extracurricular activities.
+5.  **Focus on Education**: Education is highly valued in Korean culture, and there is considerable pressure on students to excel academically. Parents often prioritize their children's education and invest heavily in private tutoring and extracurricular activities.
 
-6. **Hierarchy and Formality**: Korean society traditionally has a hierarchical structure based on age, status, and position. Formality in speech and behavior, especially in professional and social settings, is common.
+6.  **Hierarchy and Formality**: Korean society traditionally has a hierarchical structure based on age, status, and position. Formality in speech and behavior, especially in professional and social settings, is common.
 
-7. **Hospitality and Generosity**: Koreans are known for their hospitality and generosity towards guests. Offering food and drink as a sign of respect and hospitality is a common practice.
+7.  **Hospitality and Generosity**: Koreans are known for their hospitality and generosity towards guests. Offering food and drink as a sign of respect and hospitality is a common practice.
 
-8. **Collective Decision Making**: In many aspects of Korean society, decisions are often made collectively, with input from various stakeholders and consensus-seeking approaches.
+8.  **Collective Decision Making**: In many aspects of Korean society, decisions are often made collectively, with input from various stakeholders and consensus-seeking approaches.
 
-9. **Emphasis on Appearance**: Personal appearance and grooming are important in Korean culture, reflecting a broader emphasis on physical presentation and social image.
+9.  **Emphasis on Appearance**: Personal appearance and grooming are important in Korean culture, reflecting a broader emphasis on physical presentation and social image.
 
 10. **Love for Food**: Korean cuisine is rich and diverse, and food holds a central place in Korean culture. Sharing meals with family and friends is a cherished social activity.
 
@@ -99,9 +101,14 @@ The characteristics of Koreans, referring to the people of South Korea or those 
 
 15. **Emotional Restraint**: Traditional Korean culture values emotional restraint and maintaining harmony in social interactions, although attitudes towards emotional expression are evolving, especially among younger generations.
 
-It's important to recognize that these characteristics are generalizations and may not apply universally to all individuals of Korean descent. Additionally, there may be differences in cultural norms and behaviors between South Korea and Korean communities in other parts of the world.
+It will be difficult to locate individuals that has all or majority of these characteristics.
 
+However, as a group, Americans to display these characteristics.
 
+Likewise, Koreans as a nation share those characteristics.
 
+Using a tool called slope chart, one can show this relationship
 
-Am I good in neither
+It's important to recognize that these characteristics are generalizations and may not apply universally to all individuals of Korean descent.
+
+Additionally, there may be differences in cultural norms and behaviors between South Korea and Korean communities in other parts of the world.
