@@ -55,8 +55,7 @@ The finished product sounded and looked dated.
 
 There is only so much that can be done with 200 lines of resolution and mono sound recording.
 
-The intended audience was my father-in-laws' descendants. He had 5 children and 15 grand children.
-(He passed away in 2008)
+The intended audience was my father-in-laws' descendants. He had 5 children and 15 grand children. (He passed away in 2008)
 
 I didn't expect much response or feedback, since it was meant for the immediate family of Hong Han Pyo and Whang Young Ja.
 
@@ -155,8 +154,7 @@ library(tidyverse)
 library(gt)
 library(readxl)
 
-
-df <- read_excel("H:/R/20221216 Quarto Blog/posts/20230606 Analog Recordings/tech_table.xlsx")
+df <- read_excel("tech_table.xlsx")
 
 df %>% 
   gt()
